@@ -36,3 +36,23 @@
 #hotel-reservation-module .module-tab .col-md-1 {
   background-color: #FAFAFA;
 }
+
+
+.btn-group {
+  margin-right: 15px;
+
+}
+
+.resize {
+  width: 11%;
+}
+
+#button-names {
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.input-row {
+  margin-left: 5px;
+  margin-bottom: 25px;
+}
