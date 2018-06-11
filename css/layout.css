@@ -9,6 +9,11 @@
   border-radius: 0;
 }
 
+.carousel {
+  position: fixed;
+  bottom: 375px;
+}
+
 /* 02-about-us */
 
 
