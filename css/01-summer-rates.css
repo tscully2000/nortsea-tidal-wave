@@ -1,0 +1,13 @@
+.summer-rates {
+  background-color: #333;
+  color: #fff;
+}
+
+.explore-button {
+  border-radius: 0;
+}
+
+.carousel {
+  position: fixed;
+  bottom: 375px;
+}
