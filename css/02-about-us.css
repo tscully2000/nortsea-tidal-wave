@@ -5,32 +5,39 @@
 .about-us-back {
   padding: 0.20%;
   background: #222;
+
 }
 
+.about-us-desc {
+  font-family: Times;
+}
 
 h1 {
   color: #e1d8c6;
   padding: 0.20%;
-  margin: -1px;
+  margin: 40px;
+}
+
+.left-title {
+  font-size: 24px;
 }
 
 .text-right {
   color: #a8a8a8a8;
   padding: 0.20%;
-}
-
-.col-md-2 {
-
+  margin: 40px;
 }
 
 .desc-about-us {
   padding: 0.30%;
-  margin: 40px;
+  margin-top: 10px;
   color: white;
 }
 
 .desc-about-content {
   color: #a8a8a8a8;
+  margin-top: 20px;
+  margin-bottom: 160px;
 }
 .icons-row {
   background: white;
@@ -45,6 +52,18 @@ h1 {
   background: white;
 }
 
-.un-highlight {
+.team-overview {
+  color: #e1d8c6;
+  font-size: 32px;
+  margin-top: 30px;
+}
+
+.team-overview-desc {
+  font-size: 14px;
   color: #a8a8a8a8;
+}
+
+.blank-img {
+  margin-top: -100px;
+  margin-left: 63px;
 }
