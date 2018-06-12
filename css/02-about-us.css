@@ -63,7 +63,34 @@ h1 {
   color: #a8a8a8a8;
 }
 
+.png-rows {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  height: 180px;
+
+}
+
 .blank-img {
   margin-top: -100px;
   margin-left: 63px;
+}
+
+.john-doe {
+  font-size: 20px;
+  margin-right: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.founder {
+  margin-right: 35px;
+}
+
+.team-desc {
+  margin-right: 35px;
+}
+
+.social-media-icons {
+  margin-right: 2px;
+  color: #a8a8a8a8;
 }
