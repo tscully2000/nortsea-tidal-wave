@@ -39,8 +39,12 @@
 }
 
 .carousel {
-  position: fixed;
-  bottom: 375px;
+  position: relative;
+  top: 250px;
+}
+
+.summer-images img {
+  margin: 0.5em;
 }
 
 /* Reservations */
