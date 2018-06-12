@@ -64,8 +64,7 @@ h1 {
 }
 
 .png-rows {
-  margin-top: 30px;
-  margin-bottom: 5px;
+  margin: 30px 2px 5px 2px;
   height: 180px;
 
 }
@@ -77,20 +76,22 @@ h1 {
 
 .john-doe {
   font-size: 20px;
-  margin-right: 35px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin: 0px 0px 0px 0px;
 }
 
 .founder {
-  margin-right: 35px;
+  color: #a8a8a8a8;
 }
 
 .team-desc {
-  margin-right: 35px;
+  margin: 0px;
 }
 
 .social-media-icons {
-  margin-right: 2px;
   color: #a8a8a8a8;
+}
+
+.spacing {
+  height: 100px;
 }
