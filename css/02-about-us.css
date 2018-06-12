@@ -15,19 +15,23 @@ h1 {
 }
 
 .text-right {
-  color: white;
+  color: #a8a8a8a8;
   padding: 0.20%;
 }
 
 .col-md-2 {
-  background: white;
+
 }
 
 .desc-about-us {
-  padding: 12%;
-  margin: 1px 1px 1px 1px;
+  padding: 0.30%;
+  margin: 40px;
+  color: white;
 }
 
+.desc-about-content {
+  color: #a8a8a8a8;
+}
 .icons-row {
   background: white;
   margin-top: 15px;
@@ -39,4 +43,8 @@ h1 {
 
 .icon-desc {
   background: white;
+}
+
+.un-highlight {
+  color: #a8a8a8a8;
 }
