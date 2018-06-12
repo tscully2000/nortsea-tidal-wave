@@ -1,0 +1,42 @@
+.container-fluid .row {
+  padding: 0.20%;
+}
+
+.about-us-back {
+  padding: 0.20%;
+  background: #222;
+}
+
+
+h1 {
+  color: #e1d8c6;
+  padding: 0.20%;
+  margin: -1px;
+}
+
+.text-right {
+  color: white;
+  padding: 0.20%;
+}
+
+.col-md-2 {
+  background: white;
+}
+
+.desc-about-us {
+  padding: 12%;
+  margin: 1px 1px 1px 1px;
+}
+
+.icons-row {
+  background: white;
+  margin-top: 15px;
+}
+
+.icon-card {
+  background: white;
+}
+
+.icon-desc {
+  background: white;
+}
