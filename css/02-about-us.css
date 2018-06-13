@@ -36,6 +36,8 @@ h1 {
   padding: 0.30%;
   margin-top: 10px;
   color: white;
+  font-family: Times;
+  font-size: 18px;
 }
 
 .desc-about-content {
