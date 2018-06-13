@@ -1,0 +1,71 @@
+/* News Content */
+
+.container-fluid {
+  background-image: url(../assets/background-texture.png);
+}
+
+.article-date {
+  background-color: #e1d8c6;
+  color: #fff;
+  display: inline-block;
+  margin: 1em 0 1.5em 0;
+  padding: 0.75em;
+}
+
+.social-icons {
+  display: inline;
+  margin: 0 0 0 1.5em;
+}
+
+.social-icons a {
+  margin: 0 0.75em 0 0;
+}
+
+/* .fa-facebook,
+.fa-twitter,
+.fa-google-plus-g {
+  height: 100%;
+} */
+
+.fa-facebook {
+  background-color: #e1d8c6;
+  color: #fff;
+}
+
+.fa-twitter, 
+.fa-google-plus-g {
+  color: lightgrey;
+}
+
+.news-content p {
+  color: gray;
+  font-size: 1.25em;
+} 
+
+/* Popular/Recent Column */
+
+.popular-recent {
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+
+.popular-header {
+  color: #e1d8c6;
+}
+
+.recent-header {
+  background-color: #333;
+  color: #fff;
+}
+
+.top-paragraph {
+  margin: 1em 0 0 0;
+}
+
+.popular-recent p {
+  color: gray;
+}
+
+.popular-recent time {
+  color: lightgray;
+}
