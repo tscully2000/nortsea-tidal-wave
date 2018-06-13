@@ -1,0 +1,38 @@
+.black-space-after {
+  height: 10px;
+}
+
+.sub-header {
+  color: #e1d8c6;
+  font-size: 24px;
+  font-family: Times;
+}
+
+.demo-icon {
+  background: purple;
+  height: 22px;
+  width: 20px;
+  color: white;
+  border: 2px solid purple;
+}
+
+.demo-icon-desc {
+  color: #a8a8a8a8;
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  margin-top: -20px;
+}
+.air-conditioner {
+  background: purple;
+  height: 18px;
+  margin-bottom: 8px;
+}
+
+.fridge-icon {
+  background: purple;
+  margin-bottom: 8px;
+}
+
+.free-breakfast {
+  margin-left: -4px;
+}
