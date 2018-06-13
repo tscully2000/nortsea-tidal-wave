@@ -1,0 +1,12 @@
+.background-box {
+  height: 350px;
+  width: 700px;
+  background: #222;
+  border: 5px solid grey;
+}
+
+
+.blank-img {
+  margin: 140px 0 0 325px;
+
+}
