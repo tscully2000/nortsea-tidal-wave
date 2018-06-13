@@ -12,6 +12,10 @@
   font-family: Times;
 }
 
+.black-space {
+  height: 100px;
+}
+
 h1 {
   color: #e1d8c6;
   padding: 0.20%;
