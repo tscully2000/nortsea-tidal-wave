@@ -1,3 +1,6 @@
+
+/*-- About Us  */
+
 /* Header and Navigation Bar */
 
 #header-module .navbar {
@@ -28,6 +31,7 @@
 }
 
 /* Abous Us Content */
+
 
 .container-fluid .row {
   padding: 0.20%;
@@ -74,8 +78,8 @@ h1 {
 .desc-about-content {
   color: #a8a8a8a8;
   margin-top: 20px;
+  margin-bottom: 160px;
 }
-
 .icons-row {
   background: white;
   margin-top: 15px;
@@ -134,8 +138,10 @@ h1 {
 }
 
 
+/*---Products gallery---*/
+
 #row-gallery {
-  padding: 0 0 10px 15px;
+  padding: 0 0 10px 90px;
 }
 
 .row-image-button {
@@ -143,6 +149,7 @@ h1 {
 }
 #image-button {
   padding: 0 0 15px 0px;
+  margin-right: 50px;
 }
 
 #right-button {
@@ -163,11 +170,7 @@ h1 {
   margin-left: 82px;
 }
 
-.june-text {
-  font-size: 14px;
-}
- /* Products Banner  */
-
+/* Product Banner */
 .image-center {
   border: 1px solid white;
   margin-left: 400px;

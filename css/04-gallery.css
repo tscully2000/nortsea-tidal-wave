@@ -1,3 +1,4 @@
+
 /* Header and Navigation Bar */
 
 #header-module .navbar {
@@ -29,12 +30,13 @@
 
 /* Image Gallery */
 
-.container-fluid .row {
+/*---image gallery---*/
+.Container-fluid .row {
 Padding: 0 20%;
 }
 
 #row-gallery {
-  padding: 0 0 10px 95px;
+  padding: 0 0 10px 15px;
 }
 
 .row-image-button {
@@ -46,7 +48,6 @@ Padding: 0 20%;
 
 #right-button {
   float: right;
-  margin-right: 50px;
 
 }
 .btn-basic-right {
@@ -61,122 +62,4 @@ Padding: 0 20%;
 .blank-img {
   margin-top: -120px;
   margin-left: 82px;
-}
-
-/* About Us Content */
-
-.container-fluid .row {
-  padding: 0.20%;
-}
-
-.about-us-back {
-  padding: 0.20%;
-  background: #222;
-
-}
-
-.about-us-desc {
-  font-family: Times;
-}
-
-.black-space {
-  height: 100px;
-}
-
-h1 {
-  color: #e1d8c6;
-  padding: 0.20%;
-  margin: 40px;
-}
-
-.left-title {
-  font-size: 24px;
-}
-
-.text-right {
-  color: #a8a8a8a8;
-  padding: 0.20%;
-  margin: 40px;
-}
-
-.desc-about-us {
-  padding: 0.30%;
-  margin-top: 10px;
-  color: white;
-  font-family: Times;
-  font-size: 18px;
-}
-
-.desc-about-content {
-  color: #a8a8a8a8;
-  margin-top: 20px;
-}
-
-.icons-row {
-  background: white;
-  margin-top: 15px;
-}
-
-.icon-card {
-  background: white;
-}
-
-.icon-desc {
-  background: white;
-}
-
-.team-overview {
-  color: #e1d8c6;
-  font-size: 32px;
-  margin-top: 30px;
-}
-
-.team-overview-desc {
-  font-size: 14px;
-  color: #a8a8a8a8;
-}
-
-.png-rows {
-  margin: 30px 2px 5px 2px;
-  height: 180px;
-
-}
-
-.blank-img {
-  margin-top: -100px;
-  margin-left: 63px;
-}
-
-.john-doe {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-}
-
-.founder {
-  color: #a8a8a8a8;
-}
-
-.team-desc {
-  margin: 0px;
-}
-
-.social-media-icons {
-  color: #a8a8a8a8;
-}
-
-.spacing {
-  height: 100px;
-}
-
-/* Gallery Banner */
-
-.image-center {
-  border: 1px solid white;
-  margin-left: 400px;
-}
-
-.black-space-products {
-  color: #222;
-  height: 150px;
 }
