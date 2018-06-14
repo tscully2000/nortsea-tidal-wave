@@ -1,5 +1,5 @@
-/* Abous Us Content */
 
+/*-- About Us  */
 .container-fluid .row {
   padding: 0.20%;
 }
@@ -104,11 +104,6 @@ h1 {
   height: 100px;
 }
 
-/* Products Gallery */
-
-.container-fluid .row {
-Padding: 0 20%;
-}
 
 #row-gallery {
   padding: 0 0 10px 15px;
