@@ -139,45 +139,38 @@ p {
 
 /* News, Announcements, and Products */
 
-a.news1 {
-  color: black;
-  font-size: 12px;
-  line-height: 1.0;
-  padding: 0;
+.nap p {
+  margin: 0px 0px 5px 0px ;
 }
 
-a {
-  margin-bottom: 5px;
-}
-
-.news {
+.nap .box {
   border: 1px solid grey;
   margin-top: 0;
   padding: 0;
+  padding: 8px 12px 8px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-.announcements {
-  border: 1px solid grey;
+.nap .col1 {
+  margin-bottom: 20px;
+}
+.nap .text {
+  font-family: Helvetica,arial,freesans,clean,sans-serif;
+  font-size: 11px;
+  text-align: left;
+}
+
+.nap .headln {
   font-size: 12px;
-  margin: 0;
-  padding: 0;
+  text-align: left;
+  margin-top: 0;
+  font-weight: bold;
 }
 
-.products {
-  border: 1px solid grey;
-  font-size: 12px;
-  margin: 0;
-  padding: 0;
-}
-
-.top-buffer{
-  margin-top: 20px;
-}
-
-.btn-view-all {
+.nap .btn-view-all {
   display: inline-block;
-  padding: 6px 10px;
-  margin-bottom: 0;
+  margin: 20px 0 0 0;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.0;
@@ -188,13 +181,18 @@ a {
   padding: 10px 16px;
 }
 
-.border-line{
+.nap .top-buffer {
+  margin-top:0;
+}
+
+.nap .border-line {
   display: block;
   width: 90%;
   height: 1px;
   background: black;
   margin: 2px auto;
 }
+
 
 /* Footer */
 
