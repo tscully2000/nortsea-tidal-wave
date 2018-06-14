@@ -1,46 +1,18 @@
-.news-cards .hdline {
-  padding-top: 80px;
-}
 .news-cards .t-box {
-  background-color: red;
+  background-color: #f0f3f4;
   box-sizing: content-box;
   border: 1px solid #f8f9f9;
   display: inline-block;
   font-size: 12px;
-  margin: 0 15px 20px 0;
+  margin: 0 20px 20px 0;
+  text-align: left;
   padding: 0;
   width: 210px;
 
 }
 
-.news-cards .t-unique-box {
-  background-color: #17202a;
-  border: 1px solid #17202a;
-  color:  #fdfefe;
-  font-family: Times, serif;
-  font-size: 20px;
-  margin: 0 15px 20px 0;
-  padding: 60px 10px 15px 10px;
-  width: 211px;
-
-}
-
-.news-cards .btn-view-all {
-  background-color: #CC9933;
-  border-radius: 1px;
-  color: #fff;
-  font-size: 12px;
-  font-weight: normal;
-  line-height: 1.0;
-  margin: 20px 0 0 0;
-  padding: 10px 16px;
-  text-align: center;
-  text-transform: uppercase;
-
-}
-
 .news-cards .mtn-img {
-  margin-top: -120px;
+  margin-top: -100px;
   margin-left: 82px;
 }
 
@@ -48,3 +20,84 @@
   margin-top: 10px;
   margin-left: 98px;
 }
+
+.news-cards .hdline {
+  font-size: 16px;
+  margin-left: 10px;
+  padding-bottom: 6px;
+  padding-top: 80px;
+}
+
+.news-cards .date {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.news-cards .border-line {
+  width: 80%;
+  text-align: center;
+}
+
+.news-cards .text {
+  font-size: 12px;
+  margin-left: 10px;
+  text-align: left;
+}
+.news-cards .btn-read-more {
+  background-color: #CC9933;
+  border: none;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  padding: 10px 16px;
+  text-align: left;
+  text-transform: uppercase;
+
+}
+.news-cards .t-unique-box {
+  background-color: #17202a;
+  border: 1px solid #17202a;
+  color:  #fdfefe;
+  margin: 0 20px 10px 0;
+  padding: 60px 10px 15px 10px;
+  text-align: center;
+  width: 211px;
+
+}
+
+.news-cards .unique-black {
+  font-family: Times, serif;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.news-cards .unique-date {
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+
+.news-cards .unique-btn-read-more {
+  background-color: #CC9933;
+  border-radius: 1px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.0;
+  margin: 20px 0 30 0;
+  padding: 10px 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+  .news-cards .btn-read-more {
+    background-color: #fff;
+    border: 1px solid #17202a
+    color: #17202a;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 16px;
+    text-align: center;
