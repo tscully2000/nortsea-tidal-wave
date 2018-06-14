@@ -1,0 +1,44 @@
+.news-cards .img {
+  height: 140px;
+}
+
+.news-cards .t-box {
+  background-color: red;
+  box-sizing: content-box;
+  border: 1px solid #f8f9f9;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 15px 20px 0;
+  padding: 0;
+  width: 210px;
+
+}
+
+.news-cards .t-unique-box {
+  background-color: #17202a;
+  border: 1px solid #17202a;
+  color:  #fdfefe;
+  margin: 0 15px 20px 0;
+  width: 211px;
+
+}
+
+.news-cards .btn-view-all {
+  background-color: #CC9933;
+  border-radius: 1px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1.0;
+  margin: 20px 0 0 0;
+  padding: 10px 16px;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+.mtn-img {
+  margin-top: -120px;
+  margin-left: 82px;
+}
