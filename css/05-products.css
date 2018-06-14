@@ -1,3 +1,4 @@
+
 /*-- About Us  */
 .container-fluid .row {
   padding: 0.20%;
@@ -44,8 +45,8 @@ h1 {
 .desc-about-content {
   color: #a8a8a8a8;
   margin-top: 20px;
-  margin-bottom: 160px;
 }
+
 .icons-row {
   background: white;
   margin-top: 15px;
@@ -104,11 +105,6 @@ h1 {
 }
 
 
-/*---Products gallery---*/
-.Container-fluid .row {
-Padding: 0 20%;
-}
-
 #row-gallery {
   padding: 0 0 10px 15px;
 }
@@ -138,7 +134,11 @@ Padding: 0 20%;
   margin-left: 82px;
 }
 
-/* Product Banner */
+.june-text {
+  font-size: 14px;
+}
+ /* Products Banner  */
+
 .image-center {
   border: 1px solid white;
   margin-left: 400px;
