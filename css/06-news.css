@@ -1,7 +1,6 @@
-.news-cards .img {
-  height: 140px;
+.news-cards .hdline {
+  padding-top: 80px;
 }
-
 .news-cards .t-box {
   background-color: red;
   box-sizing: content-box;
@@ -18,7 +17,10 @@
   background-color: #17202a;
   border: 1px solid #17202a;
   color:  #fdfefe;
+  font-family: Times, serif;
+  font-size: 20px;
   margin: 0 15px 20px 0;
+  padding: 60px 10px 15px 10px;
   width: 211px;
 
 }
@@ -27,7 +29,6 @@
   background-color: #CC9933;
   border-radius: 1px;
   color: #fff;
-  display: inline-block;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.0;
@@ -38,7 +39,12 @@
 
 }
 
-.mtn-img {
+.news-cards .mtn-img {
   margin-top: -120px;
   margin-left: 82px;
+}
+
+.news-cards .press-play {
+  margin-top: 10px;
+  margin-left: 98px;
 }
