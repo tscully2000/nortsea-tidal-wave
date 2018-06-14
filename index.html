@@ -6,9 +6,356 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>NortSea-Tidal-Wave</title>
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/01-index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <h1>Hello World!</h1>
-  
+  <!-- Header -->
+  <div class="container-fluid">
+    <header class="row" id="header-module">
+      <div class="col-md-4">
+          <div class="logo"></div>
+      </div>
+      <div class="col-md-8">
+        <nav class="navbar navbar-inverse">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"> info@hellohelp.com</i></a></li>
+            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"> +440 8753692088</i></a></li>
+            <li class="dropdown"><a href="#">Log In <span class="caret"></span></a></li>
+            <li><a href="#">EN <span class="caret"></span></a></li>
+            <li><a href="#" class="fa fa-facebook" alt="facebook logo"></a></li>
+            <li><a href="#" class="fa fa-twitter" alt="twitter logo"></a></li>
+            <li><a href="#" class="fa fa-instagram" alt="instagram logo"></a></li>
+            <li><a href="#" class="fa fa-envelope" alt="envelope logo"></a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li class="dropdown"><a href="#">Services <span class="caret"></span></a></li>
+            <li><a href="#">Products <span class="caret"></span></a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Summer-rates -->
+      <section class="row summer-rates">
+        <article class="col-md-6 col-md-offset-2">
+          <h1 class="h2 sale-banner">35% Sale</h1>
+          <h2 class="h1 rates-banner">YOU ENTER SUMMER WITH REFRESHING RATES</h2>
+          <button class="btn btn-default btn-lg explore-button">EXPLORE IT</button>
+          <img src="assets/indicator-dots.png" alt="Image carousel buttons" class="img-responsive carousel">
+        </article>
+        <aside class="col-md-2 summer-images">
+          <img src="assets/weather-card.png" alt="Daily weather" class="img-responsive weather-card">
+          <img src="assets/gallery.png" alt="Gallery" class="img-responsive gallery">
+          <img src="assets/360-virtual-tour.png" alt="360 virtual tour" class="img-responsive virtual-tour">
+        </aside>
+      </section>
+      <!-- Reservations -->
+      <section class="row header-section">
+        <div class="row" id="hotel-reservation-module">
+          <div class="row module-tab">
+            <div class="col-md-1">
+              <i class="fa fa-building" aria-hidden="true"> Hotel</i>
+            </div>
+          </div>
+        <div class="row module-content clearfix">
+          <div class="row" id="button-names">
+            <div class="col-md-1 resize"><span>Arrival</span></div>
+            <div class="col-md-1 resize"><span>Going</span></div>
+            <div class="col-md-2 resize"><span>Room</span></div>
+            <div class="col-md-2 resize"><span>Person</span></div>
+            <div class="col-md-2 resize"><span>Child</span></div>
+            <div class="col-md-2 resize"><span>Day</span></div>
+          </div>
+          <div class="row input-row">
+            <div class="col-md-1 arrival-input resize">
+              <input type="text" placeholder="16.07.2015"><span class="fa fa-calendar"></span>
+            </div>
+            <div class="col-md-1 going-input resize">
+              <input type="text" placeholder="16.07.2015"><span class="fa fa-calendar"></span>
+            </div>
+            <div class="col-md-2 room-btn resize">
+              <div class="btn-group">
+                <button type="button" class="btn">2</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 person-btn resize">
+              <div class="btn-group">
+                <button type="button" class="btn">2</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 child-btn resize">
+              <div class="btn-group">
+                <button type="button" class="btn">1</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-2 day-btn resize">
+              <div class="btn-group">
+                <button type="button" class="btn">1</button>
+                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-1">
+              <button class="btn btn-basic btn-md" name="button">SEARCH BOOK</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Logos -->
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-2">
+        <img class="img-responsive center-block" src="assets/suitcase-icon.png">
+      </div>
+      <div class="col-md-2">
+        <img class="img-responsive center-block" src="assets/map-icon.png">
+      </div>
+      <div class="col-md-2">
+        <img class="img-responsive center-block" src="assets/globe-icon.png">
+      </div>
+      <div class="col-md-2">
+        <img class="img-responsive center-block" src="assets/messaging-icon.png">
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 icon-card"></div>
+      <div class="col-md-2 icon-card">
+        <p class="text-center"><strong>Amazing Travel</strong></p>
+      </div>
+      <div class="col-md-2 icon-card discover-card">
+        <p class="text-center"><strong>Discover</strong></p>
+      </div>
+      <div class="col-md-2 icon-card">
+        <p class="text-center"><strong>Book Your Trip</strong></p>
+      </div>
+      <div class="col-md-2 icon-card">
+        <p class="text-center"><strong>Nice Support</strong></p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 icon-desc"></div>
+      <div class="col-md-2 icon-desc">
+        <p class="text-center">Nam liber tempor soluta nobis eiefend option congue nihil imperideit doming id quod mazim.</p>
+        <p class="btn-read-more text-center"> Read More
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-2 icon-desc discover-desc">
+        <p class="text-center">Lorem ipsum dolor sit amet, adipisicing elit, sed diam nonummy nibh euismod tincidunt ut laoreet.</p>
+        <p class="read-more text-center descover-desc"> Read More
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-2 icon-desc">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        <p class="btn-read-more text-center"> Read More
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-2 icon-desc">
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+        <p class="btn-read-more text-center"> Read More
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+    <!-- About Hotel -->
+    <div class="row">
+      <div class="col-md-12 about-hotel">
+        <p class="text-center about-hotel-title">About Hotel</p>
+      <div class="row">
+        <div class="col-md-offset-2 col-md-8 col-med-offset-2">
+          <p class="text-center about-home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-1 padding"></div>
+      <div class="col-md-3 box">
+        <p class="text-center box-title"><strong>RESTURANTS & BANQUETS</strong></p>
+        <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+        <p class="text-center box-desc"><em>Read More<em>
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-3 box">
+        <p class="text-center box-title"><strong>ROOMS</strong></p>
+        <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+        <p class="text-center box-desc"><em>Read More<em>
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-3 box">
+        <p class="text-center box-title"><strong>BAR</strong></p>
+        <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+        <p class="text-center box-desc"><em>Read More<em>
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-1 padding"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-1 padding"></div>
+      <div class="col-md-3 box">
+        <p class="text-center box-title"><strong>GYM</strong></p>
+        <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+        <p class="text-center box-desc"><em>Read More<em>
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-3 box">
+        <p class="text-center box-title"><strong>SPA</strong></p>
+        <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+        <p class="text-center box-desc"><em>Read More<em>
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-3 box">
+        <p class="text-center box-title"><strong>CAR PARKING</strong></p>
+        <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
+        <p class="text-center box-desc"><em>Read More<em>
+          <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
+        </p>
+      </div>
+      <div class="col-md-1 padding"></div>
+    </div>
+    <!-- News, Announcements, and Products -->
+    <main class="row nap">
+      <div class="col-md-4 col-md-offset-2 box">
+          <h4 class="title">News<img class="img-responsive" src="assets/indicator-dots.png" align="right"></img></h4>
+          <div class="row">
+            <div class="col-md-6 col1">
+              <img class="img-responsive" src="assets/Jan-29.png">
+            </div>
+            <div class="col-md-5 col2">
+              <p class="headln">Lorem ipsum dolor sit amet</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              <p class="headln">Read More <i class="fa fa-caret-right"></i></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col1">
+              <img class="img-responsive" src="assets/Feb-15.png">
+            </div>
+            <div class="col-md-5 col2">
+              <p class="headln">Lorem ipsum dolor sit amet</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              <p class="headln">Read More <i class="fa fa-caret-right"></i></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col1">
+              <img class="img-responsive" src="assets/Mar-2.png">
+            </div>
+            <div class="col-md-5 col2">
+              <p class="headln">Lorem ipsum dolor sit amet</p>
+              <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              <p class="headln">Read More <i class="fa fa-caret-right"></i></p>
+            </div>
+          </div>
+          <button class="btn-view-all btn-default btn-block" role="button">View All</button>
+      </div>
+      <!-- do not know why box is around entire col-md-3 -->
+      <div class="col-md-3">
+        <div class="row box">
+          <div class="col-md-12">
+           <h4 class="title">Announcements<img class="img-responsive" src="assets/indicator-dots.png" align="right"></img></h4>
+           <p class="headln">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+           <p class="headln">Read More <i class="fa fa-caret-right"></i></p>
+           <div class="border-line"></div>
+           <p class="headln">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+           <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+           <p class="headln">Read More <i class="fa fa-caret-right"></i></p>
+         </div>
+        </div>
+        <div class="row box top-buffer">
+          <div class="col-md-7">
+            <h4 class="title">Products</h4>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+            <p class="headln">Read More <i class="fa fa-caret-right"></i></a></p>
+          </div>
+       </div>
+     </div>
+  </main>
+      <!-- Footer -->
+      <footer>
+          <div class="footer-container-fluid">
+            <div class="row footer-top">
+              <div class="col-md-2 col-md-offset-2 about">
+                  <h4 class="title">NortSea About</h4>
+                  <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo </a></p>
+                  <a href="#">Read More  <i class="fa fa-caret-right"></i></a>
+              </div>
+              <div class="col-md-2 hotel">
+                <h4 class="title">NortSea Hotel</h4>
+                <ul class="footer-col2-list">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-md-2 contact-us">
+                <h4 class="title">Contact Us</h4>
+                <ul class="footer-col3-list">
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Address: <a href="#">1100 Pico Blvd<br>
+                Santa Monica, CA 90405<br>
+                United States</a></li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: <a href="#">+4401233123208"</a></li>
+                <li><i class="fa fa-send" aria-hidden="true"></i>Email: <a href="#">support@nortsea.com</a></li>
+                <li><i class="fa fa-compass" aria-hidden="true"></i>GPS: <a href="#">10.021211-118.469009</a></li>
+              </div>
+              <div class="col-md-2">
+                <img src="assets/logo_160.png"></img>
+              </div>
+            </div>
+            <div class="row bar">
+                <div class="copyright">
+                  <p>Copyright @2015 NORTSEA | About NORTSEA | Contact Support</p>
+                </div>
+            <div class="copyright pull-right">
+                  <p>Designed by Faith34</p>
+               </div> -->
+             </div>
+          </div>
+      </footer>
+  </div>
+<!--- Closing Container Div -->
 </body>
 </html>
