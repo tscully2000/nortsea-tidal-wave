@@ -105,12 +105,9 @@ h1 {
 
 
 /*---Products gallery---*/
-.Container-fluid .row {
-Padding: 0 20%;
-}
 
 #row-gallery {
-  padding: 0 0 10px 15px;
+  padding: 0 0 10px 90px;
 }
 
 .row-image-button {
@@ -118,6 +115,7 @@ Padding: 0 20%;
 }
 #image-button {
   padding: 0 0 15px 0px;
+  margin-right: 50px;
 }
 
 #right-button {
