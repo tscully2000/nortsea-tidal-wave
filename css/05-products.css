@@ -142,3 +142,14 @@ Padding: 0 20%;
 .june-text {
   font-size: 14px;
 }
+ /* Products Banner  */
+
+.image-center {
+  border: 1px solid white;
+  margin-left: 400px;
+}
+
+.black-space-products {
+  color: #222;
+  height: 150px;
+}
