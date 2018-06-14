@@ -1,8 +1,8 @@
-.col-md-3 {
+.hotel .col-md-3 {
   border: 2px solid black;
 }
 
-.box {
+.hotel .box {
   border: 10px solid black;
   margin: 4px;
   padding: 4px;
