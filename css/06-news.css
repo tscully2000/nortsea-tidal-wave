@@ -1,0 +1,31 @@
+
+/*---06-news june banner---*/
+.background-box {
+height: 300px;
+width: 800px;
+background: #222;
+border: 1px solid #222;
+}
+
+.june-img-dots{
+  margin: -210px 0 0 750px;
+  padding: 0 0 0 5px;
+}
+
+.news-icon-img {
+margin: 120px 0 0 375px;
+}
+
+.h4-june-text {
+  font-size: 20px;
+  color: white;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 10px;
+
+}
+
+.june-text,
+.june-text-two {
+  font-size: 16px;
+  padding: 0 0 0 10px;
+}
