@@ -99,11 +99,11 @@
 
 /* About Hotel */
 
-.col-md-3 {
+.hotel .col-md-3 {
   border: 2px solid black;
 }
 
-.box {
+.hotel .box {
   border: 10px solid black;
   margin: 4px;
   padding: 4px;
@@ -128,6 +128,7 @@ p {
   color: #a8a8a8;
   margin-bottom: 5%;
 }
+
 
 .box-title {
   font-size: 16px;
