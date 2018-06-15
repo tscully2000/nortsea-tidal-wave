@@ -17,8 +17,17 @@
 }
 
 .news-cards .press-play {
-  margin-top: 10px;
-  margin-left: 98px;
+  width: 40px;
+  height: 40px;
+  margin-left: 86px;
+  margin-top: -100px;
+  
+}
+
+.news-cards .video {
+  border: 10px solid black;
+  margin: 0px 0px 0px 0px;
+  margin-left: 88px;
 }
 
 .news-cards .hdline {
