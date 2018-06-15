@@ -197,7 +197,7 @@ p {
 
 /* Footer */
 
-footer .blank-footer {
+footer .blank-column {
   width: 12.499%;
 }
 
@@ -268,7 +268,7 @@ footer .border-line{
 footer .contact-type {
   color: #c0a878;
   font-size: 11px;
-  /* text-align: right; */
+  text-align: right;
 }
 
 footer .information {
@@ -277,15 +277,27 @@ footer .information {
   padding-left: 20px;
 }
 
+footer .copyright {
+  font-size: 11px;
+  margin-left: -19px;
+  margin-right: 0;
+}
+
 footer .logo {
   margin-top: 100;
   padding-right: 0;
   justify-content: center;
 }
 
+/* footer .vertical-center {
+  display: inline-block;
+  float: none;
+  vertical-align: middle;
+} */
+
 footer .bar {
   background-color: #3f3f3f;
   color:  #9a9a9a;
   padding-top: 10px;
-  
+
 }
