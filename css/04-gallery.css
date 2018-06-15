@@ -33,7 +33,7 @@
 /*---image gallery---*/
 
 #row-gallery {
-  padding: 0 0 10px 15px;
+  padding: 0 0 10px 120px;
 }
 
 .row-image-button {
@@ -45,6 +45,7 @@
 
 #right-button {
   float: right;
+  margin-right: 50px;
 
 }
 .btn-basic-right {
