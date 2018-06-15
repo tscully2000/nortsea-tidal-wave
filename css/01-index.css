@@ -99,10 +99,6 @@
 
 /* About Hotel */
 
-.col-md-3 {
-  border: 2px solid black;
-}
-
 .box {
   border: 10px solid black;
   margin: 4px;
@@ -199,7 +195,13 @@ p {
 /* Footer */
 
 footer h4 {
-  font-color: #fff;
+  color: #acacac;
+  font-family: Arial, sans-serif;
+}
+
+footer .text {
+  color: #acacac;
+  font-size: 12px;
 }
 
 footer .footer-top{
@@ -208,9 +210,15 @@ footer .footer-top{
 }
 
 footer .about {
-  word-wrap: break-word;
+  color: #fff;
   margin-right: 30px;
+  word-wrap: break-word;
 }
+
+footer .fa-caret-right {
+  margin-left: 10px;
+  background-color: black;
+ }
 
 footer ul {
   list-style-type: none;
@@ -218,9 +226,22 @@ footer ul {
   margin: 0;
 }
 
-footer .fa-caret-right {
-  margin-left: 10px;
-  background-color: black;
+footer .flex-container {
+  display: flex;
+  justify-content: left;
+}
+
+footer .icon {
+  color: #c0a878;
+}
+
+footer .contact-type {
+  color: #c0a878;
+  justify: right;
+}
+
+footer .information {
+  color: #acacac;
 }
 
 footer .logo {
@@ -228,6 +249,7 @@ footer .logo {
 }
 
 footer .bar {
-  background-color: #363636;;
+  background-color: #363636;
+  color:  #acacac;
   padding-top: 10px;
 }

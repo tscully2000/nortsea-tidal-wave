@@ -257,7 +257,7 @@
     </div>
     <!-- News, Announcements, and Products -->
     <main class="row nap">
-      <div class="col-md-4 col-md-offset-2 box">
+      <div class="col-md-4 box">
           <h4 class="title">News<img class="img-responsive" src="assets/indicator-dots.png" align="right"></img></h4>
           <div class="row">
             <div class="col-md-6 col1">
@@ -291,7 +291,6 @@
           </div>
           <button class="btn-view-all btn-default btn-block" role="button">View All</button>
       </div>
-      <!-- do not know why box is around entire col-md-3 -->
       <div class="col-md-3">
         <div class="row box">
           <div class="col-md-12">
@@ -319,39 +318,106 @@
           <div class="footer-container-fluid">
             <div class="row footer-top">
               <div class="col-md-2 col-md-offset-2 about">
-                  <h4 class="title">NortSea About</h4>
-                  <p><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo </a></p>
-                  <a href="#">Read More  <i class="fa fa-caret-right"></i></a>
+                  <h4>NortSea About</h4>
+                  <p><a class="text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo </a></p>
+                  <a class="text" href="#">Read More  <i class="fa fa-caret-right"></i></a>
               </div>
               <div class="col-md-2 hotel">
-                <h4 class="title">NortSea Hotel</h4>
+                <h4>NortSea Hotel</h4>
                 <ul class="footer-col2-list">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Services</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a class="text" href="#">About Us</a></li>
+                  <li><a class="text" href="#">Services</a></li>
+                  <li><a class="text" href="#">Contact</a></li>
                 </ul>
               </div>
               <div class="col-md-2 contact-us">
-                <h4 class="title">Contact Us</h4>
-                <ul class="footer-col3-list">
-                <li><i class="fa fa-map-marker" aria-hidden="true"></i>Address: <a href="#">1100 Pico Blvd<br>
+                  <h4>Contact Us</h4>
+                   <div class="row flex-container address">
+                     <div class="col-md-1 icon">
+                      <p><i class="fa fa-map-marker" aria-hidden="true"></i></p>
+                     </div>
+                     <div class="col-md-3 contact-type">
+                       <p href="#">Address:</p>
+                     </div>
+                     <div class="col-md-8 information">
+                       <p class="text" href="#">1100 Pico Blvd<br>Santa Monica, CA 90405<br>United States</p>
+                     </div>
+                     <div class="border-line"></div>
+                   </div>
+                   <div class="row flex-container phone">
+                     <div class="col-md-1 icon">
+                      <p><i class="fa fa-map-phone" aria-hidden="true"></i></p>
+                     </div>
+                     <div class="col-md-3 contact-type">
+                       <p href="#">Phone:</p>
+                     </div>
+                     <div class="col-md-8 information">
+                       <p class="text" href="#">+4401233123208</p>
+                     </div>
+                     <div class="border-line"></div>
+                   </div>
+                   <div class="row flex-container email">
+                     <div class="col-md-1 icon">
+                      <p><i class="fa fa-map-send" aria-hidden="true"></i></p>
+                     </div>
+                     <div class="col-md-3 contact-type">
+                       <p href="#">Email:</p>
+                     </div>
+                     <div class="col-md-8 information">
+                       <p class="text" href="#">support@nortsea.com</p>
+                     </div>
+                     <div class="border-line"></div>
+                   </div>
+                   <div class="row flex-container gps">
+                     <div class="col-md-1 icon">
+                      <p><i class="fa fa-map-compass" aria-hidden="true"></i></p>
+                     </div>
+                     <div class="col-md-3 contact-type">
+                       <p href="#">GPS:</p>
+                     </div>
+                     <div class="col-md-8 information">
+                       <p class="text" href="#">10.021211-118.469009</p>
+                     </div>
+                     <div class="border-line"></div>
+                   </div>
+
+                      <!-- <p><i class="fa fa-phone" aria-hidden="true"></i></p>
+                      <p><i class="fa fa-send" aria-hidden="true"></i></p>
+                      <p><i class="fa fa-compass" aria-hidden="true"></i></p>
+                    </div>
+                    <div class="col-md-4 contact-type">
+
+                      <p href="#">Phone:</p>
+                      <p href="#">Email:</p>
+                      <p href="#">GPS:</p>
+                    </div>
+                     <div class="col-md-4 information">
+                       <p class="text" href="#">1100 Pico Blvd Santa Monica, CA 90405 United States</p>
+                       <p class="text" href="#">+4401233123208</p>
+                       <p class="text" href="#">support@nortsea.com</p>
+                       <p class="text" href="#">10.021211-118.469009</p>
+                     </div> -->
+                   </div>
+                </div>
+
+
+                <!-- <ul class="footer-col3-list">
+                <li><i class="fa fa-map-marker contact-type" aria-hidden="true"></i>Address: <a class="text" href="#">1100 Pico Blvd<br>
                 Santa Monica, CA 90405<br>
                 United States</a></li>
-                <li><i class="fa fa-phone" aria-hidden="true"></i>Phone: <a href="#">+4401233123208"</a></li>
-                <li><i class="fa fa-send" aria-hidden="true"></i>Email: <a href="#">support@nortsea.com</a></li>
-                <li><i class="fa fa-compass" aria-hidden="true"></i>GPS: <a href="#">10.021211-118.469009</a></li>
-              </div>
+                <li><i class="fa fa-phone contact-type" aria-hidden="true"></i>Phone: <a class="text" href="#">+4401233123208"</a></li>
+                <li><i class="fa fa-send contact-type" aria-hidden="true"></i>Email: <a class="text" href="#">support@nortsea.com</a></li>
+                <li><i class="fa fa-compass contact-type" aria-hidden="true"></i>GPS: <a class="text" href="#">10.021211-118.469009</a></li>
+              </div> -->
               <div class="col-md-2">
                 <img src="assets/logo_160.png"></img>
               </div>
             </div>
             <div class="row bar">
-                <div class="copyright">
-                  <p>Copyright @2015 NORTSEA | About NORTSEA | Contact Support</p>
-                </div>
-            <div class="copyright pull-right">
-                  <p>Designed by Faith34</p>
-               </div> -->
+                <div class="copyright pull-left">Copyright @2015 NORTSEA | About NORTSEA | Contact Support</div>
+                <div class="copyright pull-right">Designed by Faith34</div>
+            </div>
+               </div>
              </div>
           </div>
       </footer>
