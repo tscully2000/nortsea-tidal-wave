@@ -197,6 +197,10 @@ p {
 
 /* Footer */
 
+footer .blank-footer {
+  width: 12.499%;
+}
+
 footer h4 {
   color: #acacac;
   font-family: Arial, sans-serif;
@@ -213,7 +217,10 @@ footer .footer-top{
 }
 
 footer .about {
-  margin-right: 30px;
+  margin-left: -10px;
+  margin-right: 55px;
+  padding-left: 0;
+  padding-right: 0;
   word-wrap: break-word;
 }
 
@@ -228,7 +235,20 @@ footer ul {
   margin: 0;
 }
 
+footer .hotel {
+  margin-right: 55px;
+  padding-left: 50px;
+  padding-right: 0;
+}
+
+footer .contact-us {
+  margin-right: 55px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 footer .flex-container {
+  align-content: space-between;
   display: flex;
   justify-content: center;
 }
@@ -238,30 +258,34 @@ footer .icon {
 }
 
 footer .border-line{
-  background-color: #acacac;
+  background-color: #959595;
   display: block;
   width: 90%;
   height: 1px;
-  background: #acacac;
-  margin: 2px auto;
+  margin-below: 20px;
 }
 
 footer .contact-type {
   color: #c0a878;
-  font-size: 12px;
-  text-align: right;
+  font-size: 11px;
+  /* text-align: right; */
 }
 
 footer .information {
   color: #acacac;
+  font-size: 11px;
+  padding-left: 20px;
 }
 
-/* footer .logo {
-  vertical-align: middle;
-} */
+footer .logo {
+  margin-top: 100;
+  padding-right: 0;
+  justify-content: center;
+}
 
 footer .bar {
   background-color: #3f3f3f;
   color:  #9a9a9a;
   padding-top: 10px;
+  
 }
