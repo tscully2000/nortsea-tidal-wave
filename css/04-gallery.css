@@ -73,7 +73,7 @@
 
 .btn-gold {
   color: #c0a878;
-  border: 1px sold #c0a878;
+  border: 1px solid #c0a878;
 }
 /* Gallery Banner */
 .about-us-back {
@@ -123,6 +123,6 @@ h1 {
 }
 
 .black-space-products {
-  color: #222;
+  color: #313131;
   height: 150px;
 }
