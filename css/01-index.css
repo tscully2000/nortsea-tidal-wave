@@ -48,34 +48,23 @@
 }
 
 /* Reservations */
-
-.header-section {
-  background-color: #313131;
-  padding: 5% 20%;
+.search-button {
+  width: 30%;
+}
+.reservation-head {
+  background-color: #333;
 }
 
-#hotel-reservation-module .module-content,
-#hotel-reservation-module .module-tab .col-md-1 {
-  background-color: #FAFAFA;
+.hotel-column {
+  background-color: #919191;
 }
 
-.btn-group {
-  margin-right: 15px;
-
+.reservation-content div {
+  background-color: #919191;
 }
 
-.resize {
-  width: 11%;
-}
-
-#button-names {
-  margin-left: 5px;
-  padding: 10px;
-}
-
-.input-row {
-  margin-left: 5px;
-  margin-bottom: 25px;
+.fa-calendar {
+  margin-left: -20px;
 }
 
 /* Icons */
