@@ -99,10 +99,6 @@
 
 /* About Hotel */
 
-.hotel .col-md-3 {
-  border: 2px solid black;
-}
-
 .hotel .box {
   border: 10px solid black;
   margin: 4px;
@@ -140,9 +136,8 @@ p {
 /* News, Announcements, and Products */
 
 .nap p {
-  margin: 0px 0px 5px 0px ;
+    margin: 0px 0px 5px 0px ;
 }
-
 .nap .box {
   border: 1px solid grey;
   margin-top: 0;
@@ -151,7 +146,6 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
 }
-
 .nap .col1 {
   margin-bottom: 20px;
 }
@@ -160,14 +154,12 @@ p {
   font-size: 11px;
   text-align: left;
 }
-
 .nap .headln {
-  font-size: 12px;
-  text-align: left;
-  margin-top: 0;
-  font-weight: bold;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 0;
+    font-weight: bold;
 }
-
 .nap .btn-view-all {
   display: inline-block;
   margin: 20px 0 0 0;
@@ -180,29 +172,42 @@ p {
   border-radius: 1px;
   padding: 10px 16px;
 }
-
 .nap .top-buffer {
   margin-top:0;
 }
-
-.nap .border-line {
+.nap .border-line{
   display: block;
   width: 90%;
   height: 1px;
   background: black;
   margin: 2px auto;
 }
-
-
 /* Footer */
 
+footer h4 {
+  font-color: #fff;
+}
+footer .footer-top{
+  background-color: #333;
+  padding-bottom: 10px;
+}
+footer .about {
+  word-wrap: break-word;
+  margin-right: 30px;
+}
 footer ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-
 footer .fa-caret-right {
   margin-left: 10px;
   background-color: black;
+}
+footer .logo {
+  vertical-align: middle;
+}
+footer .bar {
+  background-color: #363636;;
+  padding-top: 10px;
 }
