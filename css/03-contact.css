@@ -16,9 +16,9 @@
 }
 
 #header-module .navbar .active {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #header-module .logo {
@@ -26,6 +26,10 @@
   height: 69px;
   width: 160px;
   float: right;
+}
+
+.navbar-nav {
+  color: #919191;
 }
 
 /* About Us Content */
@@ -36,12 +40,13 @@
 
 .about-us-back {
   padding: 0.20%;
-  background: #222;
+  background: #313131;
 
 }
 
 .about-us-desc {
-  font-family: Times;
+  font-family: Georgia;
+  font-size: 40px;
 }
 
 .black-space {
@@ -49,90 +54,54 @@
 }
 
 h1 {
-  color: #e1d8c6;
+  color: #c0a878;
   padding: 0.20%;
   margin: 40px;
 }
 
 .left-title {
-  font-size: 24px;
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
 .text-right {
   color: #a8a8a8a8;
   padding: 0.20%;
   margin: 40px;
+  font-size: 14px;
 }
 
 .desc-about-us {
   padding: 0.30%;
   margin-top: 10px;
-  color: white;
-  font-family: Times;
-  font-size: 18px;
+  color: #c8c8c8;
+  font-family: Georgia;
+  font-size: 20px;
 }
 
 .desc-about-content {
-  color: #a8a8a8a8;
+  color: #c8c8c8;
   margin-top: 20px;
-}
-
-.icons-row {
-  background: white;
-  margin-top: 15px;
-}
-
-.icon-card {
-  background: white;
-}
-
-.icon-desc {
-  background: white;
-}
-
-.team-overview {
-  color: #e1d8c6;
-  font-size: 32px;
-  margin-top: 30px;
-}
-
-.team-overview-desc {
-  font-size: 14px;
-  color: #a8a8a8a8;
-}
-
-.png-rows {
-  margin: 30px 2px 5px 2px;
-  height: 180px;
-
-}
-
-.blank-img {
-  margin-top: -100px;
-  margin-left: 63px;
-}
-
-.john-doe {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-}
-
-.founder {
-  color: #a8a8a8a8;
-}
-
-.team-desc {
-  margin: 0px;
-}
-
-.social-media-icons {
-  color: #a8a8a8a8;
 }
 
 .spacing {
   height: 100px;
 }
+
+.social-media-icons {
+  color: #d7d7d7;
+  height: 20px;
+  width: 20px;
+}
+
+.social-media-icons-twitter {
+  color: #c0a878;
+  height: 20px;
+  width: 20px;
+}
+
+
+
 
 /* Contact Form */
 
@@ -145,7 +114,46 @@ h1 {
     margin-top:0;
 }
 
+.contact-feed .form-group .name
+ {
+  border: 1px solid #c0a878;
+}
+
+.first-input ::placeholder  {
+  color: #c0a878;
+  font-size: 14px;
+}
+
+::placeholder {
+  color: #959595;
+}
+
+
 .contact-feed .empty-text {
   margin-top: 20px;
   padding-left: 0;
+}
+
+.contact_info p {
+  font-size: 14px;
+  color: #959595;
+}
+
+.contact_info h3 {
+  color: #464646;
+  font-size: 42px;
+}
+
+.feedback h3 {
+  color: #464646;
+  font-size: 42px;
+}
+
+.info_list .descrip {
+  color: #c0a878;
+}
+
+.btn-default {
+  background-color: #7b7b7b;
+  color: #ffffff;
 }
