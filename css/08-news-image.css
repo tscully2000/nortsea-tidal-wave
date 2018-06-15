@@ -1,5 +1,9 @@
 /* Header and Navigation Bar */
 
+#header-module {
+  background-color: #fff;
+}
+
 #header-module .navbar {
   border-radius: 0px;
   margin-bottom: 0px;
@@ -59,13 +63,13 @@
   margin: 0 0.75em 0 0;
 }
 
-/* .fa-facebook,
+/* .logo-fb,
 .fa-twitter,
 .fa-google-plus-g {
   height: 100%;
 } */
 
-.fa-facebook {
+.logo-fb {
   background-color: #e1d8c6;
   color: #fff;
 }
