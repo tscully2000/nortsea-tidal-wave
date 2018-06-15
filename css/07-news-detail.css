@@ -1,5 +1,9 @@
 /* Header and Navigation Bar */
 
+#header-module {
+  background-color: #fff;
+}
+
 #header-module .navbar {
   border-radius: 0px;
   margin-bottom: 0px;
@@ -25,4 +29,110 @@
   height: 69px;
   width: 160px;
   float: right;
+}
+
+/* News Banner */
+
+.background-box {
+  width: 100%;
+  background: #222;
+  border: 5px solid grey;
+  border: 1px solid #222;
+}
+
+.news-blank-img {
+  margin: 140px 0 0 325px;
+}
+
+.news-img-dots {
+  margin: 140px 0 0 325px;
+}
+
+/* News Content */
+
+.container-fluid {
+  background-image: url(../assets/background-texture.png);
+}
+
+.news-header h1 {
+  font-weight: 400;
+  margin: 0.5em 0 0.75em 0;
+}
+
+.news-content {
+  background-color: #fff;
+}
+
+.news-content h2 {
+  margin: 1em 0 0 0;
+}
+
+.news-content p {
+  color: gray;
+  font-size: 1.25em;
+} 
+
+.article-date {
+  background-color: #e1d8c6;
+  color: #fff;
+  display: inline-block;
+  margin: 1.5em 0;
+  padding: 0.75em;
+}
+
+.social-icons {
+  display: inline;
+  margin: 0 0 0 1.5em;
+}
+
+.social-icons a {
+  margin: 0 0.75em 0 0;
+}
+
+/* .logo-fb,
+.fa-twitter,
+.fa-google-plus-g {
+  height: 100%;
+} */
+
+.logo-fb {
+  background-color: #e1d8c6;
+  color: #fff;
+}
+
+.fa-twitter, 
+.fa-google-plus-g {
+  color: lightgrey;
+}
+
+/* Popular/Recent Column */
+
+.popular-recent {
+  background-color: #fff;
+  border: 1px solid lightgray;
+}
+
+.popular-header {
+  color: #e1d8c6;
+}
+
+.recent-header {
+  background-color: #333;
+  color: #fff;
+}
+
+.top-paragraph {
+  margin: 1em 0 0 0;
+}
+
+section p {
+  color: gray;
+}
+
+section time {
+  color: lightgray;
+}
+
+.gold-text {
+  color: #e1d8c6;
 }
