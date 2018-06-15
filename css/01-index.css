@@ -134,6 +134,9 @@ p {
 }
 
 /* News, Announcements, and Products */
+.nap .blank-nap {
+  width: 12.499%;
+}
 
 .nap p {
     margin: 0px 0px 5px 0px ;
@@ -200,17 +203,16 @@ footer h4 {
 }
 
 footer .text {
-  color: #acacac;
+  color: #959595;
   font-size: 12px;
 }
 
 footer .footer-top{
-  background-color: #333;
+  background-color: #383838;
   padding-bottom: 10px;
 }
 
 footer .about {
-  color: #fff;
   margin-right: 30px;
   word-wrap: break-word;
 }
@@ -228,28 +230,38 @@ footer ul {
 
 footer .flex-container {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 footer .icon {
   color: #c0a878;
 }
 
+footer .border-line{
+  background-color: #acacac;
+  display: block;
+  width: 90%;
+  height: 1px;
+  background: #acacac;
+  margin: 2px auto;
+}
+
 footer .contact-type {
   color: #c0a878;
-  justify: right;
+  font-size: 12px;
+  text-align: right;
 }
 
 footer .information {
   color: #acacac;
 }
 
-footer .logo {
+/* footer .logo {
   vertical-align: middle;
-}
+} */
 
 footer .bar {
-  background-color: #363636;
-  color:  #acacac;
+  background-color: #3f3f3f;
+  color:  #9a9a9a;
   padding-top: 10px;
 }
