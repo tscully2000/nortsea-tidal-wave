@@ -48,23 +48,24 @@
 }
 
 /* Reservations */
-.search-button {
-  width: 30%;
-}
-.reservation-head {
-  background-color: #333;
-}
 
 .hotel-column {
   background-color: #919191;
 }
 
-.reservation-content div {
+.text-icon {
+
+}
+.reservation-content {
+  padding:  0 0 10px 0;
+}
+
+.reservation-content div  {
   background-color: #919191;
 }
 
 .fa-calendar {
-  margin-left: -20px;
+  margin-left: 0px;
 }
 
 /* Icons */
