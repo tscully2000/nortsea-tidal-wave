@@ -53,15 +53,47 @@
   background-color: #919191;
 }
 
-.text-icon {
-
+/*---input box width---*/
+.arrival .input-box  {
+  width: 110px;
+  margin: 0 0 0 0px;
+  border: 1px solid black;
 }
+
+.going .input-box  {
+  width: 110px;
+  border: 1px solid black;
+}
+/*---------------------*/
+
+/*---btn-group---*/
+
+.btn-group-room,
+.btn-group-person,
+.btn-group-child,
+.btn-group-day   {
+  margin: 10px 0 0 5px;
+  padding: 0 0 0 0;
+  border: 1px solid black;
+}
+
+.room,
+.person,
+.child,
+.day p {
+  margin: 0 0 0 5px;
+  border: 0px solid black;
+}
+
+/*-----------------------*/
+
+
 .reservation-content {
   padding:  0 0 10px 0;
 }
 
 .reservation-content  {
-  background-color: #919191;
+  background-color: #fff;
 }
 
 .fa-calendar {
