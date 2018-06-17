@@ -18,7 +18,7 @@
 #header-module .navbar .active {
   color: #fff;
   font-weight: bold;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #header-module .logo {
@@ -26,6 +26,10 @@
   height: 69px;
   width: 160px;
   float: right;
+}
+
+.navbar-nav {
+  color: #919191;
 }
 
 /* About Us Content */
@@ -36,12 +40,13 @@
 
 .about-us-back {
   padding: 0.20%;
-  background: #222;
+  background: #363636;
 
 }
 
 .about-us-desc {
-  font-family: Times;
+  font-family: Georgia;
+  font-size: 40px;
 }
 
 .black-space {
@@ -49,7 +54,7 @@
 }
 
 h1 {
-  color: #e1d8c6;
+  color: #c0a878;
   padding: 0.20%;
   margin: 40px;
 }
@@ -59,7 +64,7 @@ h1 {
 }
 
 .text-right {
-  color: #a8a8a8a8;
+  color: #bebebe;
   padding: 0.20%;
   margin: 40px;
 }
@@ -67,14 +72,15 @@ h1 {
 .desc-about-us {
   padding: 0.30%;
   margin-top: 10px;
-  color: white;
-  font-family: Times;
-  font-size: 18px;
+  color: #c8c8c8;
+  font-family: Georgia;
+  font-size: 20px;
 }
 
 .desc-about-content {
-  color: #a8a8a8a8;
+  color: #c8c8c8;
   margin-top: 20px;
+  font-size: 20px;
 }
 .icons-row {
   background: white;
@@ -90,14 +96,14 @@ h1 {
 }
 
 .team-overview {
-  color: #e1d8c6;
+  color: #c0a878;
   font-size: 32px;
   margin-top: 30px;
 }
 
 .team-overview-desc {
   font-size: 14px;
-  color: #a8a8a8a8;
+  color: #c8c8c8;
 }
 
 .png-rows {
@@ -111,23 +117,6 @@ h1 {
   margin-left: 63px;
 }
 
-.john-doe {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 0px 0px 0px 0px;
-}
-
-.founder {
-  color: #a8a8a8a8;
-}
-
-.team-desc {
-  margin: 0px;
-}
-
-.social-media-icons {
-  color: #a8a8a8a8;
-}
 
 .spacing {
   height: 100px;
@@ -140,9 +129,9 @@ h1 {
 }
 
 .sub-header {
-  color: #e1d8c6;
-  font-size: 24px;
-  font-family: Times;
+  color: #c0a878;
+  font-size: 30px;
+  font-family: Georgia;
 }
 
 .demo-icon {
@@ -154,19 +143,19 @@ h1 {
 }
 
 .demo-icon-desc {
-  color: #a8a8a8a8;
+  color: #959595;
   font-family: arial, sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: -20px;
 }
 .air-conditioner {
-  background: purple;
+  background: #8d5ba1;
   height: 18px;
   margin-bottom: 8px;
 }
 
 .fridge-icon {
-  background: purple;
+  background: #8d5ba1;
   margin-bottom: 8px;
 }
 
