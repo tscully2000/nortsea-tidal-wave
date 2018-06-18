@@ -283,10 +283,18 @@ footer .copyright {
   margin-right: 0;
 }
 
+footer .designer {
+  font-size: 11px;
+  margin-right: -30px;
+
+}
+
 footer .logo {
-  margin-top: 100;
   padding-right: 0;
-  justify-content: center;
+}
+
+footer .center-block {
+  margin-top: 40%;
 }
 
 /* footer .vertical-center {
