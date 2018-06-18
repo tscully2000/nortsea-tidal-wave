@@ -33,9 +33,6 @@
 
 /* About Us */
 
-.container-fluid .row {
-  padding: 0.20%;
-}
 
 .about-us-back {
   padding: 0.20%;
@@ -44,7 +41,7 @@
 }
 
 .about-us-desc {
-  font-family: Times;
+  font-family: Georgia;
 }
 
 .black-space {
@@ -79,7 +76,7 @@ h1 {
   padding: 0.30%;
   margin-top: 10px;
   color: white;
-  font-family: Times;
+  font-family: Georgia;
   font-size: 18px;
 }
 
