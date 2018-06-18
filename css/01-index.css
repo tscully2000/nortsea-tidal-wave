@@ -50,19 +50,26 @@
 /* Reservations */
 
 .hotel-column {
-  background-color: #919191;
+  height: 30px;
+  font-size: 16px;
+  background-color: #f7f7f7;
 }
 
 /*---input box width---*/
 .arrival .input-box  {
   width: 110px;
-  margin: 0 0 0 0px;
-  border: 1px solid black;
+  margin: 10px 0 0 0px;
+  border: 1px solid lightgray;
 }
 
 .going .input-box  {
   width: 110px;
-  border: 1px solid black;
+  margin: 10px 0 0 0px;
+  border: 1px solid lightgray;
+}
+
+.fa-calendar {
+  margin: -10px 0 0 90px;
 }
 /*---------------------*/
 
@@ -73,32 +80,38 @@
 .btn-group-child,
 .btn-group-day   {
   margin: 10px 0 0 5px;
-  padding: 0 0 0 0;
-  border: 1px solid black;
+  padding: -10px 0 0 0;
+  border: 0px solid black;
 }
 
 .room,
 .person,
 .child,
 .day p {
+
   margin: 0 0 0 5px;
   border: 0px solid black;
 }
 
 /*-----------------------*/
 
+.search-button {
+  background: #8e8b8b;
+  width: 145px;
+  padding: 0px 0 5px 20px;
+  margin: 25px 0 10px 0;
+}
 
-.reservation-content {
-  padding:  0 0 10px 0;
+.btn-sm {
+  background-color: #8e8b8b;
+  margin: 5px 0 0 0;
 }
 
 .reservation-content  {
-  background-color: #fff;
+  padding:  10px 0 10px 0;
+  background-color: #f7f7f7;
 }
 
-.fa-calendar {
-  margin-left: 0px;
-}
 
 /* Icons */
 
