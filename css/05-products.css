@@ -36,10 +36,6 @@
 /* Abous Us Content */
 
 
-.container-fluid .row {
-  padding: 0.20%;
-}
-
 .about-us-back {
   padding: 0.20%;
   background: #313131;
@@ -61,7 +57,7 @@ h1 {
 }
 
 .left-title {
-  font-size: 24px;
+  font-size: 30px;
   margin-right: 15px;
 }
 
@@ -112,6 +108,7 @@ h1 {
 
 .btn-sm {
   color: #8c8c8c;
+  width: 115px;
 }
 
 .row-gallery-1 .col-md-2 {
@@ -128,6 +125,11 @@ h1 {
 .btn-gold-prd {
   color: #c0a878;
   border: 1px solid #c0a878;
+  width: 40px;
+}
+
+.arrow-prd {
+  width: 40px;
 }
 
 /* Product Banner */
