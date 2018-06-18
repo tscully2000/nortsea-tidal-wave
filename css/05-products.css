@@ -18,9 +18,9 @@
 }
 
 #header-module .navbar .active {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #header-module .logo {
@@ -28,6 +28,10 @@
   height: 69px;
   width: 160px;
   float: right;
+}
+
+.navbar-nav {
+  color: #919191;
 }
 
 /* Abous Us Content */
@@ -64,27 +68,18 @@ h1 {
   margin-top: 25px;
 }
 
-
 .blank-img {
   margin-top: -100px;
   margin-left: 63px;
 }
 
-
-
 /*---Products gallery---*/
 
-/* #row-gallery {
-  padding: 0 0 10px 90px;
-} */
-
-.row-gallery {
-  /* padding: 0 0 10px 90px; */
+.row-gallery h1 {
+  color: #464646;
+  font-size: 42px;
+  margin-left: 15px;
 }
-
-/* #image-button {
-  padding: 0 0 15px 0px;
-} */
 
 .row-image-button {
   padding: 0px 0px 15px 0px;
@@ -94,20 +89,17 @@ h1 {
 .right-button  {
   float: right;
 }
-/* #right-button {
-  float: right;
-
-} */
-
 
 .btn-basic-right {
   align: right;
 }
+
 .btn-sm-gold {
   color: #c0a878;
   margin-left: 10px;
   border: 1px solid #c0a878;
 }
+
 .btn-sm-prd {
   width: 85px;
   margin: 0px 1px 0px 1px;
@@ -125,13 +117,12 @@ h1 {
 .blank-img {
   margin-top: -82px;
   margin-left: 36px;
-}
+
 
 /* Product Banner */
 .image-center {
   margin-left: 350px;
   margin-top: 100px;
-}
 
 .black-space-products {
   color: #313131;

@@ -15,9 +15,9 @@
 }
 
 #header-module .navbar .active {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #header-module .logo {
@@ -27,20 +27,22 @@
   float: right;
 }
 
+.navbar-nav {
+  color: #919191;
+}
+
 /* About Us */
 
-.container-fluid .row {
-  padding: 0.20%;
-}
 
 .about-us-back {
   padding: 0.20%;
-  background: #222;
+  background: #313131;
 
 }
 
-.about-us-desc {
-  font-family: Times;
+.about-us-desc strong {
+  color: #c0a878;
+  font-family: Georgia;
 }
 
 .black-space {
@@ -48,7 +50,7 @@
 }
 
 h1 {
-  color: #e1d8c6;
+  color: #c0a878;
   padding: 0.20%;
   margin: 40px;
 }
@@ -58,27 +60,39 @@ h1 {
 }
 
 .text-right {
-  color: #a8a8a8a8;
+  color: #bebebe;
   padding: 0.20%;
   margin: 40px;
+}
+
+.text-center {
+  color: #959595;
+}
+
+.icon-card-title {
+  color: #464646;
 }
 
 .desc-about-us {
   padding: 0.30%;
   margin-top: 10px;
   color: white;
-  font-family: Times;
+  font-family: Georgia;
   font-size: 18px;
 }
 
+.btn-read-more {
+  color: #c2c2c2;
+}
+
 .desc-about-content {
-  color: #a8a8a8a8;
+  color: #c8c8c8;
   margin-top: 20px;
   margin-bottom: 160px;
 }
 .icons-row {
   background: white;
-  margin-top: 15px;
+  margin-top: 70px;
 }
 
 .icon-card {
@@ -90,35 +104,37 @@ h1 {
 }
 
 .team-overview {
-  color: #e1d8c6;
+  color: #c0a878;
   font-size: 32px;
   margin-top: 30px;
 }
 
 .team-overview-desc {
-  font-size: 14px;
-  color: #a8a8a8a8;
+  font-size: 18px;
+  color: #959595;
 }
 
 .png-rows {
-  margin: 30px 2px 5px 2px;
+  margin: 30px 0px 5px 0px;
   height: 180px;
 
 }
 
 .blank-img {
-  margin-top: -100px;
-  margin-left: 63px;
+  margin-top: -105px;
+  margin-left: 81px;
 }
 
 .john-doe {
   font-size: 20px;
   font-weight: bold;
   margin: 0px 0px 0px 0px;
+  color:#464646;
+  padding: 0px;
 }
 
 .founder {
-  color: #a8a8a8a8;
+  color: #d7d7d7;
 }
 
 .team-desc {
@@ -127,6 +143,7 @@ h1 {
 
 .social-media-icons {
   color: #a8a8a8a8;
+  margin: 15px 5px 0px 5px;
 }
 
 .spacing {
