@@ -195,6 +195,9 @@ p {
   border-radius: 1px;
   padding: 10px 16px;
 }
+.nap .fa-angle-right {
+  padding-left: 10px;
+}
 .nap .top-buffer {
   margin-top:0;
 }
