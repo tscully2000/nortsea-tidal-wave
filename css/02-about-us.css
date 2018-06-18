@@ -40,7 +40,8 @@
 
 }
 
-.about-us-desc {
+.about-us-desc strong {
+  color: #c0a878;
   font-family: Georgia;
 }
 
@@ -91,7 +92,7 @@ h1 {
 }
 .icons-row {
   background: white;
-  margin-top: 15px;
+  margin-top: 70px;
 }
 
 .icon-card {
@@ -114,14 +115,14 @@ h1 {
 }
 
 .png-rows {
-  margin: 30px 2px 5px 2px;
+  margin: 30px 0px 5px 0px;
   height: 180px;
 
 }
 
 .blank-img {
-  margin-top: -100px;
-  margin-left: 63px;
+  margin-top: -105px;
+  margin-left: 81px;
 }
 
 .john-doe {
@@ -129,6 +130,7 @@ h1 {
   font-weight: bold;
   margin: 0px 0px 0px 0px;
   color:#464646;
+  padding: 0px;
 }
 
 .founder {
@@ -141,6 +143,7 @@ h1 {
 
 .social-media-icons {
   color: #a8a8a8a8;
+  margin: 15px 5px 0px 5px;
 }
 
 .spacing {
