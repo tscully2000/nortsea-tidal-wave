@@ -135,9 +135,14 @@ p {
 
 /* News, Announcements, and Products */
 
+.nap .blank-nap {
+  width: 12.499%;
+}
+
 .nap p {
     margin: 0px 0px 5px 0px ;
 }
+
 .nap .box {
   border: 1px solid grey;
   margin-top: 0;
@@ -146,20 +151,24 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
 }
+
 .nap .col1 {
   margin-bottom: 20px;
 }
+
 .nap .text {
   font-family: Helvetica,arial,freesans,clean,sans-serif;
   font-size: 11px;
   text-align: left;
 }
+
 .nap .headln {
     font-size: 12px;
     text-align: left;
     margin-top: 0;
     font-weight: bold;
 }
+
 .nap .btn-view-all {
   display: inline-block;
   margin: 20px 0 0 0;
@@ -172,9 +181,11 @@ p {
   border-radius: 1px;
   padding: 10px 16px;
 }
+
 .nap .top-buffer {
   margin-top:0;
 }
+
 .nap .border-line{
   display: block;
   width: 90%;
@@ -182,32 +193,110 @@ p {
   background: black;
   margin: 2px auto;
 }
+
 /* Footer */
 
-footer h4 {
-  font-color: #fff;
+footer .blank-column {
+  width: 12.499%;
 }
+
+footer h4 {
+  color: #acacac;
+  font-family: Arial, sans-serif;
+}
+
+footer .text {
+  color: #959595;
+  font-size: 12px;
+}
+
 footer .footer-top{
-  background-color: #333;
+  background-color: #383838;
   padding-bottom: 10px;
 }
+
 footer .about {
+  margin-left: -10px;
+  margin-right: 55px;
+  padding-left: 0;
+  padding-right: 0;
   word-wrap: break-word;
-  margin-right: 30px;
 }
+
+footer .fa-caret-right {
+  margin-left: 10px;
+  background-color: black;
+ }
+
 footer ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
-footer .fa-caret-right {
-  margin-left: 10px;
-  background-color: black;
+
+footer .hotel {
+  margin-right: 55px;
+  padding-left: 50px;
+  padding-right: 0;
 }
+
+footer .contact-us {
+  margin-right: 55px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer .flex-container {
+  align-content: space-between;
+  display: flex;
+  justify-content: center;
+}
+
+footer .icon {
+  color: #c0a878;
+}
+
+footer .border-line {
+  background-color: #959595;
+  display: block;
+  width: 90%;
+  height: 1px;
+  margin-below: 20px;
+}
+
+footer .contact-type {
+  color: #c0a878;
+  font-size: 11px;
+  text-align: right;
+}
+
+footer .information {
+  color: #acacac;
+  font-size: 11px;
+  padding-left: 20px;
+}
+
+footer .copyright {
+  font-size: 11px;
+  margin-left: -19px;
+  margin-right: 0;
+}
+
+footer .designer {
+  font-size: 11px;
+  margin-right: -30px;
+}
+
 footer .logo {
-  vertical-align: middle;
+  padding-right: 0;
 }
+
+footer .center-block {
+  margin-top: 40%;
+}
+
 footer .bar {
-  background-color: #363636;;
+  background-color: #3f3f3f;
+  color:  #9a9a9a;
   padding-top: 10px;
 }
