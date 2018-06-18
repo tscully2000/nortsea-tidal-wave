@@ -55,6 +55,11 @@
   background-color: #f7f7f7;
 }
 
+.reservation-content  {
+  padding:  10px 0 10px 0;
+  background-color: #f7f7f7;
+}
+
 /*---input box width---*/
 .arrival .input-box  {
   width: 110px;
@@ -80,7 +85,6 @@
 .btn-group-child,
 .btn-group-day   {
   margin: 10px 0 0 5px;
-  padding: -10px 0 0 0;
   border: 0px solid black;
 }
 
@@ -107,10 +111,6 @@
   margin: 5px 0 0 0;
 }
 
-.reservation-content  {
-  padding:  10px 0 10px 0;
-  background-color: #f7f7f7;
-}
 
 
 /* Icons */
