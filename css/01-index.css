@@ -67,7 +67,6 @@
 
 .btn-group {
   margin-right: 15px;
-
 }
 
 .resize {
@@ -157,7 +156,7 @@ p {
 
 .nap .title {
   color: #8e97ac;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 800;
 }
 
@@ -171,14 +170,15 @@ p {
   color: #009fe3;
   font-size: 20px;
   font-weight: 800;
+  margin-top: 10%;
 }
 
 .nap .box {
   border: 1px solid lightgray;
   margin-top: 0;
   padding: 8px 10px 8px 20px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 .nap .col1 {
@@ -192,13 +192,14 @@ p {
 
 .nap .text {
   font-family: Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   text-align: left;
 }
 
 .nap .read-more {
   color: #8e97ac;
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   font-weight: 800;
   text-align: left;
 }
@@ -209,7 +210,7 @@ p {
 }
 
 .nap .headln {
-    font-size: 18px;
+    font-size: 14px;
     text-align: left;
     margin-top: 0;
     font-weight: 800;
@@ -217,7 +218,7 @@ p {
 }
 
 .nap .products {
-  padding-top: 10%;
+  padding-top: 2%;
 }
 
 .nap .prod-p {
@@ -242,7 +243,7 @@ p {
 }
 
 .nap .top-buffer {
-  margin-top:0;
+  margin-top: 0;
 }
 
 .nap .border-line {
@@ -255,10 +256,6 @@ p {
 
 /* Footer */
 
-footer .blank-column {
-  width: 12.499%;
-}
-
 footer h4 {
   color: #acacac;
   font-family: Arial, sans-serif;
@@ -269,14 +266,14 @@ footer .text {
   font-size: 12px;
 }
 
-footer .footer-top{
+footer .footer-top {
   background-color: #383838;
   padding-bottom: 10px;
 }
 
 footer .about {
   margin-left: -10px;
-  margin-right: 55px;
+  margin-top: 1.5%;
   padding-left: 0;
   padding-right: 0;
   word-wrap: break-word;
@@ -284,7 +281,6 @@ footer .about {
 
 footer .fa-caret-right {
   margin-left: 10px;
-  background-color: black;
  }
 
 footer ul {
@@ -294,13 +290,12 @@ footer ul {
 }
 
 footer .hotel {
-  margin-right: 55px;
-  padding-left: 50px;
-  padding-right: 0;
+  margin-top: 1.5%;
+  padding-left: 40px;
 }
 
 footer .contact-us {
-  margin-right: 55px;
+  margin-top: 1.5%;
   padding-left: 0;
   padding-right: 0;
 }
@@ -308,7 +303,6 @@ footer .contact-us {
 footer .flex-container {
   align-content: space-between;
   display: flex;
-  justify-content: center;
 }
 
 footer .icon {
@@ -335,14 +329,18 @@ footer .information {
 }
 
 footer .copyright {
-  font-size: 11px;
-  margin-left: -19px;
+  font-size: 12px;
+  margin-left: -25px;
   margin-right: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 footer .designer {
-  font-size: 11px;
-  margin-right: -30px;
+  font-size: 12px;
+  margin-right: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 footer .logo {
@@ -351,10 +349,15 @@ footer .logo {
 
 footer .center-block {
   margin-top: 40%;
+  margin-right: 0;
 }
 
 footer .bar {
   background-color: #3f3f3f;
   color:  #9a9a9a;
   padding-top: 10px;
+}
+
+footer .footer-read {
+  margin-top: 20%;
 }
