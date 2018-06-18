@@ -33,6 +33,7 @@
 .navbar-nav {
   color: #919191;
 }
+
 /* Abous Us Content */
 
 
@@ -51,37 +52,28 @@
 }
 
 h1 {
-  color: #c0a878;
-  padding: 0.20%;
-  margin: 40px;
+  color: black;
+  margin-left: 210px;
 }
 
 .left-title {
-  font-size: 30px;
-  margin-right: 15px;
+  font-size: 24px;
+  margin-left: 15px;
+  color: #c0a878;
 }
 
 .text-right {
-  color: #bebebe;
-  padding: 0.20%;
-  margin: 40px;
+  color: #a8a8a8a8;
+  /* padding: 0.20%; */
+  margin-top: 25px;
 }
 
 .blank-img {
   margin-top: -100px;
-  margin-left: 82px;
+  margin-left: 63px;
 }
-
-.spacing {
-  height: 100px;
-}
-
 
 /*---Products gallery---*/
-
-#row-gallery {
-  padding: 0 0 10px 10px;
-}
 
 .row-gallery h1 {
   color: #464646;
@@ -90,56 +82,49 @@ h1 {
 }
 
 .row-image-button {
-  padding: 0 0 10px 15px;
-}
-#image-button {
-  padding: 0 0 15px 0px;
-  margin-right: 40px;
+  padding: 0px 0px 15px 0px;
+  margin-right: 15px;
 }
 
-#right-button {
+.right-button  {
   float: right;
-
 }
 
 .btn-basic-right {
   align: right;
 }
 
-.btn-sm {
-  color: #8c8c8c;
-  width: 115px;
-}
-
-.row-gallery-1 .col-md-2 {
-  width: 200px;
-  height:200px;
-}
-
-
-.blank-img {
-  margin-top: -100px;
-  margin-left: 62px;
-}
-
-.btn-gold-prd {
+.btn-sm-gold {
   color: #c0a878;
+  margin-left: 10px;
   border: 1px solid #c0a878;
-  width: 40px;
 }
 
-.arrow-prd {
-  width: 40px;
+.btn-sm-prd {
+  width: 85px;
+  margin: 0px 1px 0px 1px;
 }
+
+.col-width {
+  width: 19.992%;
+  height: 150px;
+}
+
+.gutter {
+  margin-left: 10px;
+
+}
+.blank-img {
+  margin-top: -82px;
+  margin-left: 36px;
+
 
 /* Product Banner */
 .image-center {
-  border: 1px solid white;
-  margin-left: 250px;
-  margin-top: 15px;
-}
+  margin-left: 350px;
+  margin-top: 100px;
 
 .black-space-products {
   color: #313131;
-  height: 150px;
+  height: 100px;
 }
