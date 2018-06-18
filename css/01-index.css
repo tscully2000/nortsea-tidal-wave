@@ -186,6 +186,10 @@ p {
   padding-right: 0;
 }
 
+.nap .fa-angle-right {
+  padding-left: 10px;
+}
+
 .nap .text {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -218,6 +222,10 @@ p {
 
 .nap .prod-p {
   margin: 0 0 11% 0;
+}
+
+.nap .read-more-blue {
+  color: #009fe3;
 }
 
 .nap .btn-view-all {
