@@ -61,6 +61,10 @@
   align: right;
 }
 
+.btn-sm {
+  width: 125px;
+}
+
 .row-gallery-1 .col-md-2 {
   width: 250px;
   height:250px;
@@ -74,6 +78,11 @@
 .btn-gold {
   color: #c0a878;
   border: 1px solid #c0a878;
+  width: 70px;
+}
+
+.arrow {
+  width: 40px;
 }
 /* Gallery Banner */
 .about-us-back {
@@ -83,7 +92,7 @@
 }
 
 .about-us-desc {
-  font-family: Times;
+  font-family: Georgia;
 }
 
 .black-space {
