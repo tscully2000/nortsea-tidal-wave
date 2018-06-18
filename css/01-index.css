@@ -51,7 +51,7 @@
 
 .hotel-column {
   height: 30px;
-  font-size: 16px;
+  font-size: 18px;
   background-color: #f7f7f7;
 }
 
@@ -60,14 +60,37 @@
 }
 
 .reservation-content  {
-  /* padding:  10px 0 15px 0; */
   color: #f7f7f7;
   background-color: #313131;
 }
 
 /*---input box width---*/
+.arrival .input-box  {
+  width: 100px;
+  height: 35px;
+  margin: 0px 0 0 0px;
+  border: 1px solid lightgray;
+}
+
+.going .input-box  {
+  width: 100px;
+  height: 35px;
+  margin: 0px 0 0 0px;
+  border: 1px solid lightgray;
+}
+
+.fa-calendar {
+  margin-left: 80px;
+  margin-top: -55px;
+  color: #919191;
+  border: 0px solid black;
+}
+/*----------------------*/
+
+/*--Res Mod Gray Background--*/
 .arrival {
   background-color: #f7f7f7;
+
 }
 .going {
   background-color: #f7f7f7;
@@ -87,25 +110,6 @@
 .day-box {
   background-color: #f7f7f7;
   height: 85px;
-}
-
-.arrival .input-box  {
-  width: 100px;
-  margin: 11px 0 0 0px;
-  border: 1px solid lightgray;
-}
-
-.going .input-box  {
-  width: 100px;
-  margin: 11px 0 0 0px;
-  border: 1px solid lightgray;
-}
-
-.fa-calendar {
-  margin-left: 80px;
-  margin-top: -45px;
-  color: #919191;
-  border: 0px solid black;
 }
 
 /*---------------------*/
@@ -150,6 +154,7 @@
 }
 /*-----------------------*/
 
+
 .search-button {
   background: #8e8b8b;
   background-color: #f7f7f7;
@@ -164,7 +169,7 @@
   margin: 5px 0 0 0;
 }
 
-
+/*---End of Res Mod------*/
 
 /* Icons */
 
