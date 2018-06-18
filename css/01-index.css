@@ -90,6 +90,9 @@
 
 /* Icons */
 
+.img-icon {
+  margin-top: 50px;
+}
 .icon-card .text-center {
   padding-top: 6px;
 }
@@ -127,6 +130,7 @@ p {
   font-size: 40px;
   font-family: Arial, sans-serif;
   color: #c0a878;
+  margin-top: 50px;
 }
 
 .about-home-desc {
