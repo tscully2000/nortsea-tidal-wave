@@ -8,20 +8,21 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/01-index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link  rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <!-- Header -->
   <div class="container-fluid">
+    <!-- Header -->
     <header class="row" id="header-module">
       <div class="col-md-4">
-          <div class="logo"></div>
+        <div class="logo"></div>
       </div>
       <div class="col-md-8">
         <nav class="navbar navbar-inverse">
           <ul class="nav navbar-nav">
             <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"> info@hellohelp.com</i></a></li>
-            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"> +440 8753692088</i></a></li>
+              <li><a href="#"><i class="fa fa-phone" aria-hidden="true"> +440 8753692088</i></a></li>
             <li class="dropdown"><a href="#">Log In <span class="caret"></span></a></li>
             <li><a href="#">EN <span class="caret"></span></a></li>
             <li><a href="#" class="fa fa-facebook" alt="facebook logo"></a></li>
@@ -30,105 +31,106 @@
             <li><a href="#" class="fa fa-envelope" alt="envelope logo"></a></li>
           </ul>
           <ul class="nav navbar-nav">
-            <li><a class="active" href="#">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li class="dropdown"><a href="#">Services <span class="caret"></span></a></li>
-            <li><a href="#">Products <span class="caret"></span></a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="pages/02-about-us.html">About Us</a></li>
+            <li class="dropdown"><a href="pages/09-services.html">Services <span class="caret"></span></a></li>
+            <li><a href="pages/05-products.html">Products <span class="caret"></span></a></li>
+            <li><a href="pages/04-gallery.html">Gallery</a></li>
+            <li><a href="pages/03-contact.html">Contact</a></li>
             <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
           </ul>
         </nav>
-      </header>
-      <!-- Summer-rates -->
-      <section class="row summer-rates">
-        <article class="col-md-6 col-md-offset-2">
-          <h1 class="h2 sale-banner">35% Sale</h1>
-          <h2 class="h1 rates-banner">YOU ENTER SUMMER WITH REFRESHING RATES</h2>
-          <button class="btn btn-default btn-lg explore-button">EXPLORE IT</button>
-          <img src="assets/indicator-dots.png" alt="Image carousel buttons" class="img-responsive carousel">
-        </article>
-        <aside class="col-md-2 summer-images">
-          <img src="assets/weather-card.png" alt="Daily weather" class="img-responsive weather-card">
-          <img src="assets/gallery.png" alt="Gallery" class="img-responsive gallery">
-          <img src="assets/360-virtual-tour.png" alt="360 virtual tour" class="img-responsive virtual-tour">
-        </aside>
-      </section>
-      <!-- Reservations -->
-      <section class="row header-section">
-        <div class="row" id="hotel-reservation-module">
-          <div class="row module-tab">
-            <div class="col-md-1">
-              <i class="fa fa-building" aria-hidden="true"> Hotel</i>
+      </div>
+    </header>
+    <!-- Summer-rates -->
+    <section class="row summer-rates">
+      <article class="col-md-6 col-md-offset-2">
+        <h1 class="h2 sale-banner">35% Sale</h1>
+        <h2 class="h1 rates-banner">YOU ENTER SUMMER WITH REFRESHING RATES</h2>
+        <button class="btn btn-default btn-lg explore-button">EXPLORE IT</button>
+        <img src="assets/indicator-dots.png" alt="Image carousel buttons" class="img-responsive carousel">
+      </article>
+      <aside class="col-md-2 summer-images">
+        <img src="assets/weather-card.png" alt="Daily weather" class="img-responsive weather-card">
+        <img src="assets/gallery.png" alt="Gallery" class="img-responsive gallery">
+        <img src="assets/360-virtual-tour.png" alt="360 virtual tour" class="img-responsive virtual-tour">
+      </aside>
+    </section>
+    <!-- Reservations -->
+    <section class="row header-section">
+      <div class="row" id="hotel-reservation-module">
+        <div class="row module-tab">
+          <div class="col-md-1">
+            <i class="fa fa-building" aria-hidden="true"> Hotel</i>
+          </div>
+        </div>
+      </div>
+      <div class="row module-content clearfix">
+        <div class="row" id="button-names">
+          <div class="col-md-1 resize"><span>Arrival</span></div>
+          <div class="col-md-1 resize"><span>Going</span></div>
+          <div class="col-md-2 resize"><span>Room</span></div>
+          <div class="col-md-2 resize"><span>Person</span></div>
+          <div class="col-md-2 resize"><span>Child</span></div>
+          <div class="col-md-2 resize"><span>Day</span></div>
+        </div>
+        <div class="row input-row">
+          <div class="col-md-1 arrival-input resize">
+            <input type="text" placeholder="16.07.2015"><span class="fa fa-calendar"></span>
+          </div>
+          <div class="col-md-1 going-input resize">
+            <input type="text" placeholder="16.07.2015"><span class="fa fa-calendar"></span>
+          </div>
+          <div class="col-md-2 room-btn resize">
+            <div class="btn-group">
+              <button type="button" class="btn">2</button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
             </div>
           </div>
-        <div class="row module-content clearfix">
-          <div class="row" id="button-names">
-            <div class="col-md-1 resize"><span>Arrival</span></div>
-            <div class="col-md-1 resize"><span>Going</span></div>
-            <div class="col-md-2 resize"><span>Room</span></div>
-            <div class="col-md-2 resize"><span>Person</span></div>
-            <div class="col-md-2 resize"><span>Child</span></div>
-            <div class="col-md-2 resize"><span>Day</span></div>
+          <div class="col-md-2 person-btn resize">
+            <div class="btn-group">
+              <button type="button" class="btn">2</button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">1</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="row input-row">
-            <div class="col-md-1 arrival-input resize">
-              <input type="text" placeholder="16.07.2015"><span class="fa fa-calendar"></span>
+          <div class="col-md-2 child-btn resize">
+            <div class="btn-group">
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
             </div>
-            <div class="col-md-1 going-input resize">
-              <input type="text" placeholder="16.07.2015"><span class="fa fa-calendar"></span>
+          </div>
+          <div class="col-md-2 day-btn resize">
+            <div class="btn-group">
+              <button type="button" class="btn">1</button>
+              <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+              </ul>
             </div>
-            <div class="col-md-2 room-btn resize">
-              <div class="btn-group">
-                <button type="button" class="btn">2</button>
-                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-2 person-btn resize">
-              <div class="btn-group">
-                <button type="button" class="btn">2</button>
-                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">1</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-2 child-btn resize">
-              <div class="btn-group">
-                <button type="button" class="btn">1</button>
-                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-2 day-btn resize">
-              <div class="btn-group">
-                <button type="button" class="btn">1</button>
-                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
-                  <span class="caret"></span>
-                </button>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-1">
-              <button class="btn btn-basic btn-md" name="button">SEARCH BOOK</button>
-            </div>
+          </div>
+          <div class="col-md-1">
+            <button class="btn btn-basic btn-md" name="button">SEARCH BOOK</button>
           </div>
         </div>
       </div>
@@ -195,33 +197,32 @@
       <div class="col-md-2"></div>
     </div>
     <!-- About Hotel -->
-    <div class="row">
+    <div class="row hotel">
       <div class="col-md-12 about-hotel">
         <p class="text-center about-hotel-title">About Hotel</p>
-      <div class="row">
+      <div class="row hotel">
         <div class="col-md-offset-2 col-md-8 col-med-offset-2">
           <p class="text-center about-home-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
         </div>
       </div>
-      </div>
     </div>
-    <div class="row">
+    <div class="row hotel">
       <div class="col-md-1 padding"></div>
-      <div class="col-md-3 box">
+      <div class="col-md-3 box hotel">
         <p class="text-center box-title"><strong>RESTURANTS & BANQUETS</strong></p>
         <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
         <p class="text-center box-desc"><em>Read More<em>
           <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
         </p>
       </div>
-      <div class="col-md-3 box">
+      <div class="col-md-3 box hotel">
         <p class="text-center box-title"><strong>ROOMS</strong></p>
         <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
         <p class="text-center box-desc"><em>Read More<em>
           <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
         </p>
       </div>
-      <div class="col-md-3 box">
+      <div class="col-md-3 box hotel">
         <p class="text-center box-title"><strong>BAR</strong></p>
         <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
         <p class="text-center box-desc"><em>Read More<em>
@@ -230,23 +231,23 @@
       </div>
       <div class="col-md-1 padding"></div>
     </div>
-    <div class="row">
+    <div class="row hotel">
       <div class="col-md-1 padding"></div>
-      <div class="col-md-3 box">
+      <div class="col-md-3 box hotel">
         <p class="text-center box-title"><strong>GYM</strong></p>
         <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
         <p class="text-center box-desc"><em>Read More<em>
           <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
         </p>
       </div>
-      <div class="col-md-3 box">
+      <div class="col-md-3 box hotel">
         <p class="text-center box-title"><strong>SPA</strong></p>
         <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
         <p class="text-center box-desc"><em>Read More<em>
           <span class="glyphicon glyphicon-play" aria-hidden="true"></span>
         </p>
       </div>
-      <div class="col-md-3 box">
+      <div class="col-md-3 box hotel">
         <p class="text-center box-title"><strong>CAR PARKING</strong></p>
         <p class="text-center box-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
         <p class="text-center box-desc"><em>Read More<em>
@@ -316,92 +317,86 @@
   </main>
   <!-- Footer -->
   <footer>
-    <div class="footer-container-fluid">
-      <div class="col-md-1 blank-column"></div>
-      <div class="row footer-top">
-        <div class="col-md-2 about">
-          <h4>NortSea About</h4>
-          <p><a class="text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo </a></p>
-          <a class="text" href="#">Read More  <i class="fa fa-caret-right"></i></a>
-        </div>
-        <div class="col-md-2 hotel">
-          <h4>NortSea Hotel</h4>
-          <ul class="footer-col2-list">
-            <li><a class="text" href="#">About Us</a></li>
-            <li><a class="text" href="#">Services</a></li>
-            <li><a class="text" href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2 contact-us">
-          <h4>Contact Us</h4>
-          <div class="row address">
-            <div class="col-md-1 icon">
-              <p><i class="fa fa-map-marker" aria-hidden="true"></i></p>
-            </div>
-            <div class="col-md-2 contact-type">
-              <p href="#">Address:</p>
-            </div>
-            <div class="col-md-7 information">
-              <p href="#">1100 Pico Blvd<br>Santa Monica, CA 90405<br>United States</p>
-            </div>
+    <div class="col-md-1 blank-column"></div>
+    <div class="row footer-top">
+      <div class="col-md-2 about">
+        <h4>NortSea About</h4>
+        <p><a class="text" href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nos trud exercitation ullamco laboris nisi ut aliquip ex ea commodo </a></p>
+        <a class="text" href="#">Read More  <i class="fa fa-caret-right"></i></a>
+      </div>
+      <div class="col-md-2 hotel">
+        <h4>NortSea Hotel</h4>
+        <ul class="footer-col2-list">
+          <li><a class="text" href="#">About Us</a></li>
+          <li><a class="text" href="#">Services</a></li>
+          <li><a class="text" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 contact-us">
+        <h4>Contact Us</h4>
+        <div class="row address">
+          <div class="col-md-1 icon">
+            <p><i class="fa fa-map-marker" aria-hidden="true"></i></p>
           </div>
-          <div><p class="border-line"></p></div>
-          <div class="row phone">
-            <div class="col-md-1 icon">
-              <p><i class="fa fa-phone" aria-hidden="true"></i></p>
-            </div>
-            <div class="col-md-2 contact-type">
-              <p href="#">  Phone:</p>
-            </div>
-            <div class="col-md-7 information">
-              <p href="#">+4401233123208</p>
-            </div>
+          <div class="col-md-2 contact-type">
+            <p href="#">Address:</p>
           </div>
-          <div><p class="border-line"></p></div>
-          <div class="row email">
-            <div class="col-md-1 icon">
-              <p><i class="fa fa-send" aria-hidden="true"></i></p>
-            </div>
-            <div class="col-md-2 contact-type">
-              <p href="#">   Email:</p>
-            </div>
-            <div class="col-md-7 information">
-              <p href="#">support@nortsea.com</p>
-            </div>
-          </div>
-          <div><p class="border-line"></p></div>
-          <div class="row gps">
-            <div class="col-md-1 icon">
-              <p><i class="fa fa-compass" aria-hidden="true"></i></p>
-            </div>
-            <div class="col-md-2 contact-type">
-              <p class="contact-type pull-left" href="#">    GPS:</p>
-            </div>
-            <div class="col-md-8 information">
-              <p href="#">10.021211-118.469009</p>
-            </div>
+          <div class="col-md-7 information">
+            <p href="#">1100 Pico Blvd<br>Santa Monica, CA 90405<br>United States</p>
           </div>
         </div>
-        <div class="col-md-2 logo">
-          <img class="center-block" src="assets/logo-footer_360.png"></img>
+        <div><p class="border-line"></p></div>
+        <div class="row phone">
+          <div class="col-md-1 icon">
+            <p><i class="fa fa-phone" aria-hidden="true"></i></p>
+          </div>
+          <div class="col-md-2 contact-type">
+            <p href="#">  Phone:</p>
+          </div>
+          <div class="col-md-7 information">
+            <p href="#">+4401233123208</p>
+          </div>
+        </div>
+        <div><p class="border-line"></p></div>
+        <div class="row email">
+          <div class="col-md-1 icon">
+            <p><i class="fa fa-send" aria-hidden="true"></i></p>
+          </div>
+          <div class="col-md-2 contact-type">
+            <p href="#">   Email:</p>
+          </div>
+          <div class="col-md-7 information">
+            <p href="#">support@nortsea.com</p>
+          </div>
+        </div>
+        <div><p class="border-line"></p></div>
+        <div class="row gps">
+          <div class="col-md-1 icon">
+            <p><i class="fa fa-compass" aria-hidden="true"></i></p>
+          </div>
+          <div class="col-md-2 contact-type">
+            <p class="contact-type pull-left" href="#">    GPS:</p>
+          </div>
+          <div class="col-md-8 information">
+            <p href="#">10.021211-118.469009</p>
+          </div>
         </div>
       </div>
-
-        <div class="row bar">
-          <div class="col-md-1 blank-column"></div>
-            <div class="col-md-5">
-              <div class="copyright pull-left">Copyright @2015 NORTSEA | About NORTSEA | Contact Support</div>
-            </div>
-            <div class="col-md-4">
-              <div class="designer pull-right">Designed by Faith34</div>
-            </div>
-        </div>
-      </div>
-
+      <div class="col-md-2 logo">
+        <img class="center-block" src="assets/logo-footer_360.png"></img>
       </div>
     </div>
-  </footer>
-</div>
+      <div class="row bar">
+        <div class="col-md-1 blank-column"></div>
+          <div class="col-md-5">
+            <div class="copyright pull-left">Copyright @2015 NORTSEA | About NORTSEA | Contact Support</div>
+          </div>
+          <div class="col-md-4">
+            <div class="designer pull-right">Designed by Faith34</div>
+          </div>
+      </div>
+    </footer>
+  </div>
 <!--- Closing Container Div -->
 </body>
 </html>

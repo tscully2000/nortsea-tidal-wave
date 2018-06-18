@@ -7,11 +7,11 @@
 }
 
 #header-module .navbar-inverse {
-  background-color: #363636
+  background-color: #363636;
 }
 
 #header-module .col-md-8 {
-  background-color: #363636
+  background-color: #363636;
 }
 
 #header-module .navbar .active {
@@ -99,7 +99,7 @@
 
 /* About Hotel */
 
-.box {
+.hotel .box {
   border: 10px solid black;
   margin: 4px;
   padding: 4px;
@@ -134,13 +134,13 @@ p {
 }
 
 /* News, Announcements, and Products */
+
 .nap .blank-nap {
   width: 12.499%;
 }
 
 .nap p {
     margin: 0px 0px 5px 0px ;
-
 }
 
 .nap .box {
@@ -150,12 +150,12 @@ p {
   padding: 8px 12px 8px 20px;
   margin-right: 10px;
   margin-bottom: 10px;
-
 }
 
 .nap .col1 {
   margin-bottom: 20px;
 }
+
 .nap .text {
   font-family: Helvetica,arial,freesans,clean,sans-serif;
   font-size: 11px;
@@ -167,7 +167,6 @@ p {
     text-align: left;
     margin-top: 0;
     font-weight: bold;
-
 }
 
 .nap .btn-view-all {
@@ -257,7 +256,7 @@ footer .icon {
   color: #c0a878;
 }
 
-footer .border-line{
+footer .border-line {
   background-color: #959595;
   display: block;
   width: 90%;
@@ -286,7 +285,6 @@ footer .copyright {
 footer .designer {
   font-size: 11px;
   margin-right: -30px;
-
 }
 
 footer .logo {
@@ -297,15 +295,8 @@ footer .center-block {
   margin-top: 40%;
 }
 
-/* footer .vertical-center {
-  display: inline-block;
-  float: none;
-  vertical-align: middle;
-} */
-
 footer .bar {
   background-color: #3f3f3f;
   color:  #9a9a9a;
   padding-top: 10px;
-
 }
