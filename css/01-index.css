@@ -55,27 +55,59 @@
   background-color: #f7f7f7;
 }
 
+.reservation-head {
+  background-color: #313131;
+}
+
 .reservation-content  {
-  padding:  10px 0 10px 0;
-  background-color: #f7f7f7;
+  /* padding:  10px 0 15px 0; */
+  color: #f7f7f7;
+  background-color: #313131;
 }
 
 /*---input box width---*/
+.arrival {
+  background-color: #f7f7f7;
+}
+.going {
+  background-color: #f7f7f7;
+}
+.room {
+  background-color: #f7f7f7;
+  height: 85px;
+}
+.person-box {
+  background-color: #f7f7f7;
+  height: 85px;
+}
+.child-box {
+  background-color: #f7f7f7;
+  height: 85px;
+}
+.day-box {
+  background-color: #f7f7f7;
+  height: 85px;
+}
 .arrival .input-box  {
-  width: 110px;
+  width: 100px;
   margin: 10px 0 0 0px;
   border: 1px solid lightgray;
+
 }
 
 .going .input-box  {
-  width: 110px;
+  width: 100px;
   margin: 10px 0 0 0px;
   border: 1px solid lightgray;
 }
 
 .fa-calendar {
-  margin: -10px 0 0 90px;
+  margin-left: 80px;
+  margin-top: -45px;
+  color: #919191;
+  border: 0px solid black;
 }
+
 /*---------------------*/
 
 /*---btn-group---*/
@@ -93,12 +125,16 @@
   margin: 0px 0 0 -15px;
 }
 
+.reservation-content p {
+  color: #919191;
+}
+
 .room,
 .person,
 .child,
 .day, p {
-  margin: 0 0 10px 5px;
-  border: 0px solid black;
+  font-family: sans-serif;
+  margin: 0 0 11px 0px;
 }
 
 .dropdown-toggle {
@@ -109,9 +145,11 @@
 
 .search-button {
   background: #8e8b8b;
+  background-color: #f7f7f7;
   width: 145px;
-  padding: 0px 0 5px 20px;
-  margin: 25px 15px 10px 5px;
+  height: 85px;
+  padding: 30px 0 0px 20px;
+  margin: 0px 14px 15px 0px;
 }
 
 .btn-sm {
