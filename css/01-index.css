@@ -15,9 +15,9 @@
 }
 
 #header-module .navbar .active {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #header-module .logo {
@@ -27,11 +27,15 @@
   float: right;
 }
 
+.navbar-nav {
+  color: #919191;
+}
+
 /* Summer Rates */
 
 .summer-rates {
-  background-color: #333;
-  color: #fff;
+  background-color: #313131;
+  color: #ffffff;
 }
 
 .explore-button {
@@ -50,13 +54,15 @@
 /* Reservations */
 
 .header-section {
+  color: #959595;
   background-color: #313131;
   padding: 5% 20%;
 }
 
 #hotel-reservation-module .module-content,
 #hotel-reservation-module .module-tab .col-md-1 {
-  background-color: #FAFAFA;
+  color: #959595;
+  background-color: #fafafa;
 }
 
 .btn-group {
@@ -65,6 +71,7 @@
 }
 
 .resize {
+  color: #636363;
   width: 11%;
 }
 
@@ -78,6 +85,10 @@
   margin-bottom: 25px;
 }
 
+.fa-building {
+  color: #5f5f5f;
+}
+
 /* Icons */
 
 .icon-card .text-center {
@@ -85,16 +96,16 @@
 }
 
 .icon-desc .text-center {
-  color: #a8a8a8;
+  color: #959595;
 }
 
 
  .discover-card {
-  color: #e1d8c6;
+  color: #c0a878;
 }
 
 .icon-desc .read-more {
-  color: #e1d8c6;
+  color: #c0a878;
 }
 
 /* About Hotel */
@@ -116,12 +127,12 @@ p {
 .about-hotel .about-hotel-title {
   font-size: 40px;
   font-family: Arial, sans-serif;
-  color: #e1d8c6;
+  color: #c0a878;
 }
 
 .about-home-desc {
   font-size: 18px;
-  color: #a8a8a8;
+  color: #959595;
   margin-bottom: 5%;
 }
 
@@ -130,7 +141,7 @@ p {
 }
 
 .box-desc {
-  color: #a8a8a8;
+  color: #959595;
 }
 
 /* News, Announcements, and Products */
@@ -145,6 +156,18 @@ p {
   padding: 8px 12px 8px 20px;
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.nap .title {
+  color: #8e97ac;
+}
+
+.nap .title-announce {
+  color: #3faf6c;
+}
+
+.nap .title-prod {
+  color: #009fe3;
 }
 .nap .col1 {
   margin-bottom: 20px;
@@ -185,15 +208,20 @@ p {
 /* Footer */
 
 footer h4 {
-  font-color: #fff;
+  font-color: #959595;
+}
+
 }
 footer .footer-top{
-  background-color: #333;
+  background-color: #959595;
   padding-bottom: 10px;
 }
+
+
 footer .about {
   word-wrap: break-word;
   margin-right: 30px;
+  color: #959595;
 }
 footer ul {
   list-style-type: none;
@@ -204,8 +232,8 @@ footer .fa-caret-right {
   margin-left: 10px;
   background-color: black;
 }
-footer .logo {
-  vertical-align: middle;
+footer .logo{
+  margin-right: 5px;
 }
 footer .bar {
   background-color: #363636;;

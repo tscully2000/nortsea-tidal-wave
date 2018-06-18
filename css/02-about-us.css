@@ -15,9 +15,9 @@
 }
 
 #header-module .navbar .active {
-  color: #fff;
+  color: #ffffff;
   font-weight: bold;
-  border-bottom: 3px solid #fff;
+  border-bottom: 3px solid #ffffff;
 }
 
 #header-module .logo {
@@ -27,20 +27,21 @@
   float: right;
 }
 
+.navbar-nav {
+  color: #919191;
+}
+
 /* About Us */
 
-.container-fluid .row {
-  padding: 0.20%;
-}
 
 .about-us-back {
   padding: 0.20%;
-  background: #222;
+  background: #313131;
 
 }
 
 .about-us-desc {
-  font-family: Times;
+  font-family: Georgia;
 }
 
 .black-space {
@@ -48,7 +49,7 @@
 }
 
 h1 {
-  color: #e1d8c6;
+  color: #c0a878;
   padding: 0.20%;
   margin: 40px;
 }
@@ -58,21 +59,33 @@ h1 {
 }
 
 .text-right {
-  color: #a8a8a8a8;
+  color: #bebebe;
   padding: 0.20%;
   margin: 40px;
+}
+
+.text-center {
+  color: #959595;
+}
+
+.icon-card-title {
+  color: #464646;
 }
 
 .desc-about-us {
   padding: 0.30%;
   margin-top: 10px;
   color: white;
-  font-family: Times;
+  font-family: Georgia;
   font-size: 18px;
 }
 
+.btn-read-more {
+  color: #c2c2c2;
+}
+
 .desc-about-content {
-  color: #a8a8a8a8;
+  color: #c8c8c8;
   margin-top: 20px;
   margin-bottom: 160px;
 }
@@ -90,14 +103,14 @@ h1 {
 }
 
 .team-overview {
-  color: #e1d8c6;
+  color: #c0a878;
   font-size: 32px;
   margin-top: 30px;
 }
 
 .team-overview-desc {
-  font-size: 14px;
-  color: #a8a8a8a8;
+  font-size: 18px;
+  color: #959595;
 }
 
 .png-rows {
@@ -115,10 +128,11 @@ h1 {
   font-size: 20px;
   font-weight: bold;
   margin: 0px 0px 0px 0px;
+  color:#464646;
 }
 
 .founder {
-  color: #a8a8a8a8;
+  color: #d7d7d7;
 }
 
 .team-desc {
