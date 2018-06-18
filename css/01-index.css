@@ -97,13 +97,16 @@
   border: 0px solid black;
 }
 
+.dropdown-toggle {
+  margin: 0 0 0 -4px;
+}
 /*-----------------------*/
 
 .search-button {
   background: #8e8b8b;
   width: 145px;
   padding: 0px 0 5px 20px;
-  margin: 25px 0 10px 0;
+  margin: 25px 15px 10px 0;
 }
 
 .btn-sm {
