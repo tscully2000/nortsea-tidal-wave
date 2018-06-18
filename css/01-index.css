@@ -84,21 +84,26 @@
 .btn-group-person,
 .btn-group-child,
 .btn-group-day   {
-  margin: 10px 0 0 5px;
+  margin: 11px 0 0 5px;
   border: 0px solid black;
+}
+.child-box,
+.person-box,
+.day-box {
+  margin: 0px 0 0 -15px;
 }
 
 .room,
 .person,
 .child,
-.day p {
-
-  margin: 0 0 0 5px;
+.day, p {
+  margin: 0 0 10px 5px;
   border: 0px solid black;
 }
 
 .dropdown-toggle {
   margin: 0 0 0 -4px;
+  background: #e2e2e2;
 }
 /*-----------------------*/
 
@@ -106,7 +111,7 @@
   background: #8e8b8b;
   width: 145px;
   padding: 0px 0 5px 20px;
-  margin: 25px 15px 10px 0;
+  margin: 25px 15px 10px 5px;
 }
 
 .btn-sm {
