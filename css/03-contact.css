@@ -1,3 +1,8 @@
+/* Background Image */
+
+.container-fluid {
+  background-image: url(../assets/background-texture.png);
+}
 
 /* Header and Navigation Bar */
 
