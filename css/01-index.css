@@ -31,6 +31,10 @@
   color: #919191;
 }
 
+.social-box {
+  border: 1px solid lightgray;
+}
+
 /* Summer Rates */
 
 .summer-rates {
