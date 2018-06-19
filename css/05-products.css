@@ -78,6 +78,10 @@ h1 {
   margin-left: 15px;
 }
 
+.row-gallery-1 .col-md-2 {
+  height: 170px;
+}
+
 .row-image-button {
   padding: 0px 0px 15px 0px;
   margin-right: 15px;
@@ -112,8 +116,8 @@ h1 {
 
 }
 .blank-img {
-  margin-top: -82px;
-  margin-left: 36px;
+  margin-top: -96px;
+  margin-left: 55px;
 }
 /* Products Banner */
 
