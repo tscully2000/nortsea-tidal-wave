@@ -5,15 +5,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>News Detail</title>
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/07-news-detail.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/07-news-detail.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
   <div class="container-fluid">
-    
+    <!-- Header -->
+    <header class="row" id="header-module">
+      <div class="col-md-4">
+        <div class="logo"></div>
+      </div>
+      <div class="col-md-8">
+        <nav class="navbar navbar-inverse">
+          <ul class="nav navbar-nav">
+            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"> info@hellohelp.com</i></a></li>
+            <li><a href="#"><i class="fa fa-phone" aria-hidden="true"> +440 8753692088</i></a></li>
+            <li class="dropdown"><a href="#">Log In <span class="caret"></span></a></li>
+            <li><a href="#">EN <span class="caret"></span></a></li>
+            <li><a href="#" class="fa fa-facebook" alt="facebook logo"></a></li>
+            <li><a href="#" class="fa fa-twitter" alt="twitter logo"></a></li>
+            <li><a href="#" class="fa fa-instagram" alt="instagram logo"></a></li>
+            <li><a href="#" class="fa fa-envelope" alt="envelope logo"></a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a class="active" href="../index.html">Home</a></li>
+            <li><a href="../pages/02-about-us.html">About Us</a></li>
+            <li class="dropdown"><a href="../pages/09-services.html">Services <span class="caret"></span></a></li>
+            <li><a href="../pages/05-products.html">Products <span class="caret"></span></a></li>
+            <li><a href="../pages/04-gallery.html">Gallery</a></li>
+            <li><a href="../pages/03-contact.html">Contact</a></li>
+            <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- News Header -->
+    <div class="row">
+      <div class="col-md-2 gutter"></div>
+      <section class="col-md-8 news-header">
+        <h1>News</h1>
+      </section>
+    </div>
+    <!-- News Banner -->
+    <div class="row">
+      <div class="col-md-2 gutter"></div>
+      <div class="col-md-6">
+        <div class="background-box">
+          <img src="../assets/about-us-img.png" class="img-responsive news-blank-img">
+          <img src="../assets/indicator-dots.png" class="news-img-dots">
+        </div>
+        <!-- News Content -->
+        <div class="row">
+          <section class="col-md-12 news-content">
+            <h2>Duis autem vel eum iriure dolor in hendrerit</h2>
+            <time class="article-date" datetime="2014-06-16 12:00">June 16, 2014</time>
+            <div class="social-icons h5">
+              <span>Share:</span> 
+              <a href="#" class="fa fa-facebook logo-fb"></a>
+              <a href="#" class="fa fa-twitter"></a>
+              <a href="#" class="fa fa-google-plus-g"></a>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta magni repudiandae quaerat distinctio repellendus veritatis blanditiis laudantium animi, perferendis quae exercitationem minima? Unde commodi cupiditate reiciendis pariatur tempora deleniti nemo? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, fugit at! Omnis, amet aliquid corporis hic minus recusandae incidunt reprehenderit dolorum, officiis sed expedita commodi corrupti veniam delectus beatae quibusdam.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error velit a architecto iure aliquid aut dignissimos maiores odit eius suscipit, officiis nobis exercitationem! Nobis explicabo beatae sit dolore perspiciatis? Porro! Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sunt, molestias placeat quod voluptatum deleniti ipsa suscipit culpa tenetur ex reiciendis neque eos quas, veritatis, cumque quaerat nihil voluptates quis!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto laudantium itaque labore tempora, neque eius consectetur, corrupti consequuntur nihil eligendi obcaecati laborum, ratione sed dolore pariatur expedita ut quisquam porro.</p>
+          </section>
+        </div>
+      </div>
+      <!-- Popular and Recent Column -->
+      <section class="col-md-2 popular-recent">
+        <div class="row">
+          <div class="col-md-6 popular-header">
+            <h3 class="h4 text-center">Popular</h3>
+          </div>
+          <div class="col-md-6 recent-header">
+            <h3 class="h4 text-center">Recent</h3>
+          </div>
+        </div>
+        <p class="top-paragraph">Lorem ipsum dolor sit amet elit a consectetur adipisicing.</p>
+        <time datetime="2014-06-05">Date: 05 June, 2014</time>
+        <hr>
+        <p class="gold-text">Lorem ipsum dolor sit amet elit a consectetur adipisicing.</p>
+        <time datetime="2014-06-05">Date: 05 June, 2014</time>
+        <hr>
+        <p>Lorem ipsum dolor sit amet elit a consectetur adipisicing.</p>
+        <time datetime="2014-06-05">Date: 05 June, 2014</time>
+        <hr>
+        <p>Lorem ipsum dolor sit amet elit a consectetur adipisicing.</p>
+        <time datetime="2014-06-05">Date: 05 June, 2014</time>
+        <hr>
+        <p class="gold-text">Lorem ipsum dolor sit amet elit a consectetur adipisicing.</p>
+        <time datetime="2014-06-05">Date: 05 June, 2014</time>
+        <hr>
+        <p>Lorem ipsum dolor sit amet elit a consectetur adipisicing.</p>
+        <time datetime="2014-06-05">Date: 05 June, 2014</time>
+        <hr>
+      </section>
+    </div>
   </div>
-
 </body>
 </html>
