@@ -115,8 +115,7 @@ h1 {
     margin-top:0;
 }
 
-.contact-feed .form-group .name
- {
+.contact-feed .form-group .name {
   border: 1px solid #c0a878;
 }
 
@@ -131,6 +130,7 @@ h1 {
 
 
 .contact-feed .empty-text {
+  margin: 0 0 0 240px; 
   margin-top: 20px;
   padding-left: 0;
 }

@@ -70,9 +70,13 @@
 }
 
 .row-gallery-1 .col-md-2 {
-  margin-left: 8px;
-  margin-right: 17px;
   height: 170px;
+  margin-bottom: 20px;
+}
+
+.gutter {
+  margin-left: 10px;
+
 }
 
 .blank-img {
@@ -84,6 +88,11 @@
   color: #c0a878;
   border: 1px solid #c0a878;
   width: 70px;
+}
+
+.col-width {
+  width: 19.992%;
+  height: 150px;
 }
 
 .arrow {
@@ -125,8 +134,8 @@ h1 {
 }
 
 .blank-img {
-  margin-top: -82px;
-  margin-left: 38px;
+  margin-top: -100px;
+  margin-left: 55px;
 }
 
 .spacing {
