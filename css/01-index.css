@@ -279,7 +279,7 @@ p {
 
 .nap .box {
   border: 1px solid lightgray;
-  margin-top: 0;
+  margin-top: 40px;
   padding: 8px 10px 8px 20px;
   margin-right: 20px;
   margin-bottom: 20px;
@@ -345,13 +345,11 @@ p {
   border-radius: 1px;
   padding: 10px 16px;
 }
-<<<<<<< HEAD
+
 .nap .fa-angle-right {
   padding-left: 10px;
 }
-=======
 
->>>>>>> 8ffdb024bd936f97b9b4a42203574e26be208b5f
 .nap .top-buffer {
   margin-top: 0;
 }
