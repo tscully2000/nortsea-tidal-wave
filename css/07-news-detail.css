@@ -146,3 +146,111 @@ section time {
 .gold-text {
   color: #c0a878;
 }
+
+/* Footer */
+
+footer h4 {
+  color: #acacac;
+  font-family: Arial, sans-serif;
+}
+
+footer .text {
+  color: #959595;
+  font-size: 12px;
+}
+
+footer .footer-top {
+  background-color: #383838;
+  padding-bottom: 10px;
+}
+
+footer .about {
+  margin-left: -10px;
+  margin-top: 1.5%;
+  padding-left: 0;
+  padding-right: 0;
+  word-wrap: break-word;
+}
+
+footer .fa-caret-right {
+  margin-left: 10px;
+ }
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer .hotel {
+  margin-top: 1.5%;
+  padding-left: 40px;
+}
+
+footer .contact-us {
+  margin-top: 1.5%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+footer .flex-container {
+  align-content: space-between;
+  display: flex;
+}
+
+footer .icon {
+  color: #c0a878;
+}
+
+footer .border-line {
+  background-color: #959595;
+  display: block;
+  width: 90%;
+  height: 1px;
+}
+
+footer .contact-type {
+  color: #c0a878;
+  font-size: 11px;
+  text-align: right;
+}
+
+footer .information {
+  color: #acacac;
+  font-size: 11px;
+  padding-left: 20px;
+}
+
+footer .copyright {
+  font-size: 12px;
+  margin-left: -25px;
+  margin-right: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+footer .designer {
+  font-size: 12px;
+  margin-right: 0;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+footer .logo {
+  padding-right: 0;
+}
+
+footer .center-block {
+  margin-top: 40%;
+  margin-right: 0;
+}
+
+footer .bar {
+  background-color: #3f3f3f;
+  color:  #9a9a9a;
+  padding-top: 10px;
+}
+
+footer .footer-read {
+  margin-top: 20%;
+}
