@@ -35,6 +35,8 @@
 
 #row-gallery {
   padding: 0 0 10px 120px;
+  color: #ffffff;
+  height: 100px;
 }
 
 .row-gallery h1 {
@@ -152,12 +154,21 @@ footer .footer-top {
   padding-bottom: 10px;
 }
 
+footer .footer-gutter {
+  background-color: #383838;
+  height: 255px;
+  margin-top: 21px;
+}
+
 footer .about {
   margin-left: -10px;
   margin-top: 1.5%;
   padding-left: 0;
   padding-right: 0;
-  word-wrap: break-word;
+  padding-bottom: 83px;
+  /* word-wrap: break-word; */
+  background-color: #383838;
+
 }
 
 footer .fa-caret-right {
@@ -172,19 +183,23 @@ footer ul {
 
 footer .hotel {
   margin-top: 1.5%;
-  padding-left: 40px;
+  padding-left: 50px;
+  padding-bottom: 155px;
+  background-color: #383838;
 }
 
 footer .contact-us {
+  background-color: #383838;
   margin-top: 1.5%;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 22px
 }
 
-footer .flex-container {
+/* footer .flex-container {
   align-content: space-between;
   display: flex;
-}
+} */
 
 footer .icon {
   color: #c0a878;
@@ -211,7 +226,7 @@ footer .information {
 
 footer .copyright {
   font-size: 12px;
-  margin-left: -25px;
+  margin-left: 25px;
   margin-right: 0;
   margin-top: 2%;
   margin-bottom: 2%;
@@ -225,7 +240,10 @@ footer .designer {
 }
 
 footer .logo {
-  padding-right: 0;
+  padding-left: 9px;
+  margin-top: 22px;
+  padding-bottom: 113px;
+  background-color: #383838;
 }
 
 footer .center-block {
