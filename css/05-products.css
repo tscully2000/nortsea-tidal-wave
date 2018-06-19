@@ -114,13 +114,13 @@ h1 {
 .blank-img {
   margin-top: -82px;
   margin-left: 36px;
-
-
+}
 /* Products Banner */
 
 .image-center {
   margin-left: 350px;
   margin-top: 100px;
+}
 
 .black-space-products {
   color: #313131;
@@ -142,6 +142,7 @@ footer .text {
 footer .footer-top {
   background-color: #383838;
   padding-bottom: 10px;
+  border: 1px solid black;
 }
 
 footer .about {
@@ -150,6 +151,7 @@ footer .about {
   padding-left: 0;
   padding-right: 0;
   word-wrap: break-word;
+  background-color: #383838;
 }
 
 footer .fa-caret-right {
@@ -192,6 +194,7 @@ footer .border-line {
 footer .contact-type {
   color: #c0a878;
   font-size: 11px;
+  margin-right: 6px;
   text-align: right;
 }
 
