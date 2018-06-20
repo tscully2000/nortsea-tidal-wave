@@ -32,9 +32,16 @@
 }
 
 /* June Banner */
+h2 {
+  margin: 2% 0 2% 0;
+}
+
+.news-title {
+  font-weight: bold;
+}
 
 .background-box {
-margin-left: -3%;
+margin-left: -1.7%;
 height: 300px;
 width: 800px;
 background: #363636;
@@ -209,6 +216,7 @@ margin: 120px 0 0 375px;
 
 .popular-header {
   color: #c0a878;
+  border-top: 2px solid #c0a878;
 }
 
 .recent-header {
@@ -218,6 +226,7 @@ margin: 120px 0 0 375px;
 
 .top-paragraph {
   margin: 1em 0 0 0;
+  text-align: left;
 }
 
 .pop-recent-column p {
