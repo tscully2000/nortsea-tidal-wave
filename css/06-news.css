@@ -72,6 +72,7 @@ margin: 120px 0 0 375px;
   color: #959595;
 }
 
+/* News-Cards */
 .news-cards .t-box {
   background-color: lightgray;
   box-sizing: content-box;
@@ -197,6 +198,38 @@ margin: 120px 0 0 375px;
   margin-left: 20px;
   text-align: center;
   vertical-align: middle;
+}
+
+/* Popular/Recent Column */
+
+.popular-recent {
+  background-color: #ffffff;
+  border: 1px solid lightgray;
+}
+
+.popular-header {
+  color: #c0a878;
+}
+
+.recent-header {
+  background-color: #363636;
+  color: #ffffff;
+}
+
+.top-paragraph {
+  margin: 1em 0 0 0;
+}
+
+.pop-recent-column p {
+  color: #959595;
+}
+
+time {
+  color: #c5c5c5;
+}
+
+.gold-text {
+  color: #c0a878;
 }
 
 /* Footer */
