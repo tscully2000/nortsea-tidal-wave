@@ -33,27 +33,26 @@
 
 /* Image Gallery */
 
-#row-gallery {
+.row-gallery {
   padding: 0 0 10px 120px;
   color: #ffffff;
-  height: 100px;
+  /* height: 100px; */
 }
 
 .row-gallery h1 {
   color: #464646;
   font-size: 42px;
+  margin-left: 150px;
 }
 
 .row-image-button {
   padding: 0 0 10px 15px;
-}
-#image-button {
-  padding: 0 0 15px 0px;
+  margin-bottom: 15px;
 }
 
-#right-button {
+.right-button {
   float: right;
-  margin-right: 50px;
+  /* margin-right: 50px; */
 
 }
 .btn-basic-right {
@@ -65,12 +64,17 @@
 }
 
 .row-gallery-1 .col-md-2 {
-  width: 250px;
-  height:250px;
+  height: 170px;
+  margin-bottom: 20px;
+}
+
+.gutter {
+  margin-left: 10px;
+
 }
 
 .blank-img {
-  margin-top: -120px;
+  margin-top: -110px;
   margin-left: 82px;
 }
 
@@ -78,6 +82,11 @@
   color: #c0a878;
   border: 1px solid #c0a878;
   width: 70px;
+}
+
+.col-width {
+  width: 19.992%;
+  height: 150px;
 }
 
 .arrow {
@@ -119,8 +128,8 @@ h1 {
 }
 
 .blank-img {
-  margin-top: -120px;
-  margin-left: 82px;
+  margin-top: -100px;
+  margin-left: 55px;
 }
 
 .spacing {
@@ -151,12 +160,12 @@ footer .text {
 
 footer .footer-top {
   background-color: #383838;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 footer .footer-gutter {
   background-color: #383838;
-  height: 255px;
+  /* padding-bottom: 100px */
   margin-top: 21px;
 }
 
@@ -165,7 +174,7 @@ footer .about {
   margin-top: 1.5%;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 83px;
+  /* padding-bottom: 83px; */
   /* word-wrap: break-word; */
   background-color: #383838;
 
@@ -183,8 +192,8 @@ footer ul {
 
 footer .hotel {
   margin-top: 1.5%;
-  padding-left: 50px;
-  padding-bottom: 155px;
+  /* padding-left: 50px;
+  padding-bottom: 155px; */
   background-color: #383838;
 }
 
@@ -193,7 +202,7 @@ footer .contact-us {
   margin-top: 1.5%;
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 22px
+  /* padding-bottom: 22px */
 }
 
 /* footer .flex-container {
@@ -242,7 +251,7 @@ footer .designer {
 footer .logo {
   padding-left: 9px;
   margin-top: 22px;
-  padding-bottom: 113px;
+  /* padding-bottom: 113px; */
   background-color: #383838;
 }
 
