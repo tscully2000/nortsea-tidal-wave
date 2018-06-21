@@ -43,9 +43,11 @@ h2 {
 .background-box {
 margin-left: -1.7%;
 height: 300px;
-width: 800px;
+/* width: 800px; */
+width: 100%;
 background: #363636;
 border: 1px solid #363636;
+padding-right: 2%;
 }
 
 .june-img-dots {
