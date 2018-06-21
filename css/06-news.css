@@ -43,7 +43,6 @@ h2 {
 .background-box {
 margin-left: -1.7%;
 height: 300px;
-/* width: 800px; */
 width: 100%;
 background: #363636;
 border: 1px solid #363636;
@@ -91,7 +90,6 @@ margin: 120px 0 0 375px;
   margin: 3% 3% 0 0;
   text-align: left;
   padding: 0;
-  /* width: 210px; */
   width: 30%;
 
 }
@@ -100,17 +98,11 @@ margin: 120px 0 0 375px;
 }
 
 .news-cards .mtn-img {
-  /* margin-top: -100px; */
-  /* margin-left: 82px; */
   margin: 20% 0 25% 40%;
 }
 
 .news-cards .press-play {
   margin: 20% 0 25% 40%
-  /* width: 40px;
-  height: 40px;
-  margin-left: 86px;
-  margin-top: -100px; */
 
 }
 
@@ -165,7 +157,6 @@ margin: 120px 0 0 375px;
   margin: 3% 3% 0 0;
   padding: 8% 10px 15px 10px;
   text-align: center;
-  /* width: 210px; */
   width: 30%;
 }
 
@@ -173,6 +164,7 @@ margin: 120px 0 0 375px;
   font-family: serif, Times ;
   font-size: 16px;
   padding-bottom: 9%;
+  text-align: center;
   width: 70%;
 }
 
@@ -205,18 +197,18 @@ margin: 120px 0 0 375px;
 }
 
 .news-cards .btn-view-all {
-  border: 1px solid #f7f7f7;
+  border: 1px solid lightgrey;
   border-radius: 0;
-  color: #f7f7f7;
+  color: lightgrey;
   display: inline-block;
   padding: 10px 16px;
   font-size: 12px;
   font-weight: normal;
   line-height: 1.0;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin: 5% 0 5% 0%;
   text-align: center;
   vertical-align: middle;
+  width: 96.1%;
 }
 
 /* Popular/Recent Column */
