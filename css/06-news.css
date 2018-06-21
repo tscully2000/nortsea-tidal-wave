@@ -1,3 +1,9 @@
+/* Background Image */
+
+.container-fluid {
+  background-image: url(../assets/background-texture.png);
+}
+
 /* Header and Navigation Bar */
 
 #header-module .navbar {
@@ -32,13 +38,13 @@
 }
 
 /* June Banner */
+
 h2 {
   margin: 2% 0 2% 0;
 }
 
 .news-title {
   font-weight: bold;
-}
 
 .background-box {
   margin-left: -1.7%;
@@ -50,12 +56,15 @@ h2 {
 }
 
 .june-img-dots {
-  margin: -210px 0 0 750px;
-  padding: 0 0 0 5px;
+  margin: -210px 0 0 640px;
 }
 
 .news-icon-img {
+<<<<<<< HEAD
   margin: 120px 0 0 375px;
+=======
+  margin: 140px 0 0 325px;
+>>>>>>> 7f3903d242dc413772abd44a738ce1ed8761cb4
 }
 
 .h4-june-text {
@@ -63,7 +72,6 @@ h2 {
   color: #ffffff;
   margin: 0 0 20px 0;
   padding: 0 0 0 10px;
-
 }
 
 .june-text {
@@ -81,6 +89,7 @@ h2 {
 }
 
 /* News-Cards */
+
 .news-cards .t-box {
   background-color: #fefcff;
   box-sizing: content-box;
@@ -91,8 +100,8 @@ h2 {
   text-align: left;
   padding: 0;
   width: 30%;
-
 }
+
 .news-cards .thumbnail {
   background-color: lightgrey;
 }
@@ -103,7 +112,6 @@ h2 {
 
 .news-cards .press-play {
   margin: 20% 0 25% 40%
-
 }
 
 .news-cards .hdline {
@@ -120,7 +128,7 @@ h2 {
   color: #c2c2c2;
 }
 
-.news-cards .border-line{
+.news-cards .border-line {
   display: block;
   width: 90%;
   height: 1px;
