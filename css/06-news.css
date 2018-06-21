@@ -41,12 +41,12 @@ h2 {
 }
 
 .background-box {
-margin-left: -1.7%;
-height: 300px;
-width: 100%;
-background: #363636;
-border: 1px solid #363636;
-padding-right: 2%;
+  margin-left: -1.7%;
+  height: 300px;
+  width: 100%;
+  background: #363636;
+  border: 1px solid #363636;
+  padding-right: 2%;
 }
 
 .june-img-dots {
@@ -55,7 +55,7 @@ padding-right: 2%;
 }
 
 .news-icon-img {
-margin: 120px 0 0 375px;
+  margin: 120px 0 0 375px;
 }
 
 .h4-june-text {
