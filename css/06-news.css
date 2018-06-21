@@ -45,6 +45,7 @@ h2 {
 
 .news-title {
   font-weight: bold;
+}
 
 .background-box {
   margin-left: -1.7%;
@@ -60,11 +61,8 @@ h2 {
 }
 
 .news-icon-img {
-<<<<<<< HEAD
   margin: 120px 0 0 375px;
-=======
   margin: 140px 0 0 325px;
->>>>>>> 7f3903d242dc413772abd44a738ce1ed8761cb4
 }
 
 .h4-june-text {
@@ -91,7 +89,7 @@ h2 {
 /* News-Cards */
 
 .news-cards .t-box {
-  background-color: #fefcff;
+  background-color: #f7f7f7;
   box-sizing: content-box;
   border: 1px solid #f8f9f9;
   display: inline-block;
@@ -222,6 +220,9 @@ h2 {
 
 /* Popular/Recent Column */
 
+.pop-recent-column {
+  border: 1px solid lightgrey;
+}
 .popular-recent {
   background-color: #ffffff;
   border: 1px solid lightgray;
