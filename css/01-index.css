@@ -1,3 +1,9 @@
+/* Background Image */
+
+.container-fluid {
+  background-image: url(assets/background-texture.png);
+}
+
 /* Header and Navigation Bar */
 
 #header-module .navbar {
@@ -344,6 +350,10 @@ p {
   border: 1px solid lightgray;
   border-radius: 1px;
   padding: 10px 16px;
+}
+
+.nap .fa-angle-right {
+  padding-left: 10px;
 }
 
 .nap .top-buffer {
